@@ -188,243 +188,334 @@ module_energy_transportation_downscaling_xml <- function(command, ...) {
 
       L254.BaseService_trn_SSP <- L254.BaseService_trn %>% filter(sce =="CORE")
 
-      #Duplicate passenger transport
+      #Split domestic passenger transport into urban transport and other transport
       L254.Supplysector_trn_SSP <- L254.Supplysector_trn_SSP %>%
+        mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W"), paste0(supplysector, "_urban"), supplysector)) %>%
         bind_rows(
           L254.Supplysector_trn_SSP %>%
             filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(supplysector = paste0(supplysector, "2"))
+            mutate(supplysector = paste0(supplysector, "_other"))
         )
 
       L254.FinalEnergyKeyword_trn_SSP <- L254.FinalEnergyKeyword_trn_SSP %>%
+        mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W"), paste0(supplysector, "_urban"), supplysector)) %>%
         bind_rows(
           L254.FinalEnergyKeyword_trn_SSP %>%
             filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(supplysector = paste0(supplysector, "2"))
+            mutate(supplysector = paste0(supplysector, "_other"))
         )
 
       L254.tranSubsectorLogit_SSP <- L254.tranSubsectorLogit_SSP %>%
+        mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W"), paste0(supplysector, "_urban"), supplysector)) %>%
         bind_rows(
           L254.tranSubsectorLogit_SSP %>%
             filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(supplysector = paste0(supplysector, "2"))
-        )
+            mutate(supplysector = paste0(supplysector, "_other"))
+        ) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "Domestic Aviation")) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "HSR")) %>%
+        filter(!(supplysector == "trn_pass_other" & tranSubsector == "Cycle")) %>%
+        filter(!(supplysector == "trn_pass_other" & tranSubsector == "Walk")) %>%
+        filter(!(supplysector == "trn_pass_road_LDV_other" & tranSubsector == "2W and 3W"))
 
       L254.tranSubsectorShrwtFllt_SSP <- L254.tranSubsectorShrwtFllt_SSP %>%
+        mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W"), paste0(supplysector, "_urban"), supplysector)) %>%
         bind_rows(
           L254.tranSubsectorShrwtFllt_SSP %>%
             filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(supplysector = paste0(supplysector, "2"))
-        )
+            mutate(supplysector = paste0(supplysector, "_other"))
+        ) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "Domestic Aviation")) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "HSR")) %>%
+        filter(!(supplysector == "trn_pass_other" & tranSubsector == "Cycle")) %>%
+        filter(!(supplysector == "trn_pass_other" & tranSubsector == "Walk")) %>%
+        filter(!(supplysector == "trn_pass_road_LDV_other" & tranSubsector == "2W and 3W"))
 
       L254.tranSubsectorInterp_SSP <- L254.tranSubsectorInterp_SSP %>%
+        mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W"), paste0(supplysector, "_urban"), supplysector)) %>%
         bind_rows(
           L254.tranSubsectorInterp_SSP %>%
             filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(supplysector = paste0(supplysector, "2"))
-        )
+            mutate(supplysector = paste0(supplysector, "_other"))
+        ) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "Domestic Aviation")) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "HSR")) %>%
+        filter(!(supplysector == "trn_pass_other" & tranSubsector == "Cycle")) %>%
+        filter(!(supplysector == "trn_pass_other" & tranSubsector == "Walk")) %>%
+        filter(!(supplysector == "trn_pass_road_LDV_other" & tranSubsector == "2W and 3W"))
 
       L254.tranSubsectorSpeed_SSP <- L254.tranSubsectorSpeed_SSP %>%
+        mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W"), paste0(supplysector, "_urban"), supplysector)) %>%
         bind_rows(
           L254.tranSubsectorSpeed_SSP %>%
             filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(supplysector = paste0(supplysector, "2"))
-        )
+            mutate(supplysector = paste0(supplysector, "_other"))
+        ) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "Domestic Aviation")) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "HSR")) %>%
+        filter(!(supplysector == "trn_pass_other" & tranSubsector == "Cycle")) %>%
+        filter(!(supplysector == "trn_pass_other" & tranSubsector == "Walk")) %>%
+        filter(!(supplysector == "trn_pass_road_LDV_other" & tranSubsector == "2W and 3W"))
 
       L254.tranSubsectorSpeed_passthru_SSP <- L254.tranSubsectorSpeed_passthru_SSP %>%
+        mutate(supplysector = ifelse(region == "USA" & supplysector == "trn_pass_road_LDV", paste0(supplysector, "_urban"), supplysector)) %>%
         bind_rows(
           L254.tranSubsectorSpeed_passthru_SSP %>%
-            filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(supplysector = paste0(supplysector, "2"))
+            filter(region == "USA", supplysector == "trn_pass_road_LDV") %>%
+            mutate(supplysector = paste0(supplysector, "_other"))
         )
 
       L254.tranSubsectorSpeed_noVOTT <- L254.tranSubsectorSpeed_noVOTT %>%
+        mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road"), paste0(supplysector, "_urban"), supplysector)) %>%
         bind_rows(
           L254.tranSubsectorSpeed_noVOTT %>%
-            filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(supplysector = paste0(supplysector, "2"))
+            filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road")) %>%
+            mutate(supplysector = paste0(supplysector, "_other"))
         )
 
       L254.tranSubsectorSpeed_nonmotor <- L254.tranSubsectorSpeed_nonmotor %>%
-        bind_rows(
-          L254.tranSubsectorSpeed_nonmotor %>%
-            filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(supplysector = paste0(supplysector, "2"))
-        )
+        mutate(supplysector = ifelse(region == "USA" & supplysector == "trn_pass", paste0(supplysector, "_urban"), supplysector))
 
       L254.tranSubsectorVOTT_SSP <- L254.tranSubsectorVOTT_SSP %>%
+        mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV"), paste0(supplysector, "_urban"), supplysector)) %>%
         bind_rows(
           L254.tranSubsectorVOTT_SSP %>%
-            filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(supplysector = paste0(supplysector, "2"))
-        )
+            filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV")) %>%
+            mutate(supplysector = paste0(supplysector, "_other"))
+        ) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "Domestic Aviation")) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "HSR")) %>%
+        filter(!(supplysector == "trn_pass_other" & tranSubsector == "Cycle")) %>%
+        filter(!(supplysector == "trn_pass_other" & tranSubsector == "Walk")) %>%
+        filter(!(supplysector == "trn_pass_road_LDV_other" & tranSubsector == "2W and 3W"))
 
       L254.tranSubsectorFuelPref_SSP <- L254.tranSubsectorFuelPref_SSP %>%
+        mutate(supplysector = ifelse(region == "USA" & supplysector == "trn_pass_road_LDV_4W", paste0(supplysector, "_urban"), supplysector)) %>%
         bind_rows(
           L254.tranSubsectorFuelPref_SSP %>%
-            filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(supplysector = paste0(supplysector, "2"))
+            filter(region == "USA", supplysector == "trn_pass_road_LDV_4W") %>%
+            mutate(supplysector = paste0(supplysector, "_other"))
         )
 
       L254.StubTranTech_SSP <- L254.StubTranTech_SSP %>%
+        mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W"), paste0(supplysector, "_urban"), supplysector)) %>%
         bind_rows(
           L254.StubTranTech_SSP %>%
             filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(supplysector = paste0(supplysector, "2"))
-        )
+            mutate(supplysector = paste0(supplysector, "_other"))
+        ) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "Domestic Aviation")) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "HSR")) %>%
+        filter(!(supplysector == "trn_pass_other" & tranSubsector == "Cycle")) %>%
+        filter(!(supplysector == "trn_pass_other" & tranSubsector == "Walk")) %>%
+        filter(!(supplysector == "trn_pass_road_LDV_other" & tranSubsector == "2W and 3W"))
 
       L254.StubTech_passthru_SSP <- L254.StubTech_passthru_SSP %>%
+        mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV"), paste0(supplysector, "_urban"), supplysector)) %>%
         bind_rows(
           L254.StubTech_passthru_SSP %>%
-            filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(supplysector = paste0(supplysector, "2"))
+            filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV")) %>%
+            mutate(supplysector = paste0(supplysector, "_other"))
         )
 
       L254.StubTech_nonmotor_SSP <- L254.StubTech_nonmotor_SSP %>%
-        bind_rows(
-          L254.StubTech_nonmotor_SSP %>%
-            filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(supplysector = paste0(supplysector, "2"))
-        )
+        mutate(supplysector = ifelse(region == "USA" & supplysector == "trn_pass", paste0(supplysector, "_urban"), supplysector))
 
       L254.GlobalTechShrwt_passthru <- L254.GlobalTechShrwt_passthru %>%
         bind_rows(
           L254.GlobalTechShrwt_passthru %>%
-            filter(sector.name %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(sector.name = paste0(sector.name, "2"))
+            filter(sector.name %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV")) %>%
+            mutate(sector.name = paste0(sector.name, "_urban"))
+        ) %>%
+        bind_rows(
+          L254.GlobalTechShrwt_passthru %>%
+            filter(sector.name %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV")) %>%
+            mutate(sector.name = paste0(sector.name, "_other"))
         )
 
       L254.GlobalTechShrwt_nonmotor <- L254.GlobalTechShrwt_nonmotor %>%
         bind_rows(
           L254.GlobalTechShrwt_nonmotor %>%
             filter(sector.name == "trn_pass") %>%
-            mutate(sector.name = paste0(sector.name, "2"))
+            mutate(sector.name = paste0(sector.name, "_urban"))
         )
 
       L254.GlobalTechCoef_passthru <- L254.GlobalTechCoef_passthru %>%
         bind_rows(
           L254.GlobalTechCoef_passthru %>%
             filter(sector.name %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV")) %>%
-            mutate(sector.name = paste0(sector.name, "2"),
-                   minicam.energy.input = paste0(minicam.energy.input, "2"))
+            mutate(sector.name = paste0(sector.name, "_urban"),
+                   minicam.energy.input = paste0(minicam.energy.input, "_urban"))
+        ) %>%
+        bind_rows(
+          L254.GlobalTechCoef_passthru %>%
+            filter(sector.name %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV")) %>%
+            mutate(sector.name = paste0(sector.name, "_other"),
+                   minicam.energy.input = paste0(minicam.energy.input, "_other"))
         )
 
       L254.GlobalRenewTech_nonmotor <- L254.GlobalRenewTech_nonmotor %>%
         bind_rows(
           L254.GlobalRenewTech_nonmotor %>%
             filter(sector.name == "trn_pass") %>%
-            mutate(sector.name = paste0(sector.name, "2"))
+            mutate(sector.name = paste0(sector.name, "_urban"))
         )
 
       L254.GlobalTranTechInterp_SSP <- L254.GlobalTranTechInterp_SSP %>%
         bind_rows(
           L254.GlobalTranTechInterp_SSP %>%
             filter(sector.name %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(sector.name = paste0(sector.name, "2"))
-        )
+            mutate(sector.name = paste0(sector.name, "_urban"))
+        ) %>%
+        bind_rows(
+          L254.GlobalTranTechInterp_SSP %>%
+            filter(sector.name %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
+            mutate(sector.name = paste0(sector.name, "_other"))
+        ) %>%
+        filter(!(sector.name == "trn_pass_urban" & subsector.name == "Domestic Aviation")) %>%
+        filter(!(sector.name == "trn_pass_urban" & subsector.name == "HSR")) %>%
+        filter(!(sector.name == "trn_pass_other" & subsector.name == "Cycle")) %>%
+        filter(!(sector.name == "trn_pass_other" & subsector.name == "Walk")) %>%
+        filter(!(sector.name == "trn_pass_road_LDV_other" & subsector.name == "2W and 3W"))
 
       L254.GlobalTranTechShrwt_SSP <- L254.GlobalTranTechShrwt_SSP %>%
         bind_rows(
           L254.GlobalTranTechShrwt_SSP %>%
             filter(sector.name %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(sector.name = paste0(sector.name, "2"))
-        )
+            mutate(sector.name = paste0(sector.name, "_urban"))
+        ) %>%
+        bind_rows(
+          L254.GlobalTranTechShrwt_SSP %>%
+            filter(sector.name %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
+            mutate(sector.name = paste0(sector.name, "_other"))
+        ) %>%
+        filter(!(sector.name == "trn_pass_urban" & subsector.name == "Domestic Aviation")) %>%
+        filter(!(sector.name == "trn_pass_urban" & subsector.name == "HSR")) %>%
+        filter(!(sector.name == "trn_pass_other" & subsector.name == "Cycle")) %>%
+        filter(!(sector.name == "trn_pass_other" & subsector.name == "Walk")) %>%
+        filter(!(sector.name == "trn_pass_road_LDV_other" & subsector.name == "2W and 3W"))
 
       L254.GlobalTranTechSCurve <- L254.GlobalTranTechSCurve %>%
         bind_rows(
           L254.GlobalTranTechSCurve %>%
-            filter(sector.name %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(sector.name = paste0(sector.name, "2"))
+            filter(sector.name == "trn_pass_road_LDV_4W") %>%
+            mutate(sector.name = paste0(sector.name, "_urban"))
+        ) %>%
+        bind_rows(
+          L254.GlobalTranTechSCurve %>%
+            filter(sector.name == "trn_pass_road_LDV_4W") %>%
+            mutate(sector.name = paste0(sector.name, "_other"))
         )
 
       L254.StubTranTechCalInput_SSP <- L254.StubTranTechCalInput_SSP %>%
         mutate(calibrated.value = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W"), calibrated.value/2, calibrated.value))
 
       L254.StubTranTechCalInput_SSP <- L254.StubTranTechCalInput_SSP %>%
+        mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W"), paste0(supplysector, "_urban"), supplysector)) %>%
         bind_rows(
           L254.StubTranTechCalInput_SSP %>%
             filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(supplysector = paste0(supplysector, "2"))
-        )
+            mutate(supplysector = paste0(supplysector, "_other"))
+        ) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "Domestic Aviation")) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "HSR")) %>%
+        filter(!(supplysector == "trn_pass_road_LDV_other" & tranSubsector == "2W and 3W")) %>%
+        mutate(calibrated.value = ifelse(region == "USA" & supplysector == "trn_pass_other" & tranSubsector == "Domestic Aviation", calibrated.value*2, calibrated.value)) %>%
+        mutate(calibrated.value = ifelse(region == "USA" & supplysector == "trn_pass_other" & tranSubsector == "HSR", calibrated.value*2, calibrated.value)) %>%
+        mutate(calibrated.value = ifelse(region == "USA" & supplysector == "trn_pass_road_LDV_urban" & tranSubsector == "2W and 3W", calibrated.value*2, calibrated.value))
 
       L254.StubTranTechLoadFactor_SSP <- L254.StubTranTechLoadFactor_SSP %>%
+        mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W"), paste0(supplysector, "_urban"), supplysector)) %>%
         bind_rows(
           L254.StubTranTechLoadFactor_SSP %>%
             filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(supplysector = paste0(supplysector, "2"))
-        )
+            mutate(supplysector = paste0(supplysector, "_other"))
+        ) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "Domestic Aviation")) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "HSR")) %>%
+        filter(!(supplysector == "trn_pass_road_LDV_other" & tranSubsector == "2W and 3W"))
 
       L254.StubTechTrackCapital_SSP <- L254.StubTechTrackCapital_SSP %>%
+        mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W"), paste0(supplysector, "_urban"), supplysector)) %>%
         bind_rows(
           L254.StubTechTrackCapital_SSP %>%
             filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(supplysector = paste0(supplysector, "2"))
-        )
+            mutate(supplysector = paste0(supplysector, "_other"))
+        ) %>%
+        filter(!(supplysector == "trn_pass_urban" & subsector == "Domestic Aviation")) %>%
+        filter(!(supplysector == "trn_pass_urban" & subsector == "HSR")) %>%
+        filter(!(supplysector == "trn_pass_road_LDV_other" & subsector == "2W and 3W"))
 
       L254.StubTranTechCost_SSP <- L254.StubTranTechCost_SSP %>%
+        mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W"), paste0(supplysector, "_urban"), supplysector)) %>%
         bind_rows(
           L254.StubTranTechCost_SSP %>%
             filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(supplysector = paste0(supplysector, "2"))
-        )
+            mutate(supplysector = paste0(supplysector, "_other"))
+        ) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "Domestic Aviation")) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "HSR")) %>%
+        filter(!(supplysector == "trn_pass_road_LDV_other" & tranSubsector == "2W and 3W"))
 
       L254.StubTranTechCoef_SSP <- L254.StubTranTechCoef_SSP %>%
+        mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W"), paste0(supplysector, "_urban"), supplysector)) %>%
         bind_rows(
           L254.StubTranTechCoef_SSP %>%
             filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-            mutate(supplysector = paste0(supplysector, "2"))
-        )
+            mutate(supplysector = paste0(supplysector, "_other"))
+        ) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "Domestic Aviation")) %>%
+        filter(!(supplysector == "trn_pass_urban" & tranSubsector == "HSR")) %>%
+        filter(!(supplysector == "trn_pass_road_LDV_other" & tranSubsector == "2W and 3W"))
 
       L254.StubTechCalInput_passthru <- L254.StubTechCalInput_passthru %>%
         mutate(calibrated.value = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV"), calibrated.value/2, calibrated.value))
 
       L254.StubTechCalInput_passthru <- L254.StubTechCalInput_passthru %>%
+        mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV"), paste0(supplysector, "_urban"), supplysector)) %>%
         bind_rows(
           L254.StubTechCalInput_passthru %>%
             filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV")) %>%
-            mutate(supplysector = paste0(supplysector, "2"),
-                   minicam.energy.input = paste0(minicam.energy.input, "2"))
+            mutate(supplysector = paste0(supplysector, "_other"),
+                   minicam.energy.input = paste0(minicam.energy.input, "_other"))
         )
 
       L254.StubTechProd_nonmotor <- L254.StubTechProd_nonmotor %>%
-        mutate(calOutputValue = ifelse(region == "USA" & supplysector == "trn_pass", calOutputValue/2, calOutputValue))
-
-      L254.StubTechProd_nonmotor <- L254.StubTechProd_nonmotor %>%
-        bind_rows(
-          L254.StubTechProd_nonmotor %>%
-            filter(region == "USA", supplysector == "trn_pass") %>%
-            mutate(supplysector = paste0(supplysector, "2"))
-        )
+        mutate(supplysector = ifelse(region == "USA" & supplysector == "trn_pass", paste0(supplysector, "_urban"), supplysector))
 
       L254.PerCapitaBased_trn_SSP <- L254.PerCapitaBased_trn_SSP %>%
+        mutate(energy.final.demand = ifelse(region == "USA" & energy.final.demand == "trn_pass", paste0(energy.final.demand, "_urban"), energy.final.demand)) %>%
         bind_rows(
           L254.PerCapitaBased_trn_SSP %>%
             filter(region == "USA", energy.final.demand == "trn_pass") %>%
-            mutate(energy.final.demand = paste0(energy.final.demand, "2"))
+            mutate(energy.final.demand = paste0(energy.final.demand, "_other"))
         )
 
       L254.PriceElasticity_trn_SSP <- L254.PriceElasticity_trn_SSP %>%
+        mutate(energy.final.demand = ifelse(region == "USA" & energy.final.demand == "trn_pass", paste0(energy.final.demand, "_urban"), energy.final.demand)) %>%
         bind_rows(
           L254.PriceElasticity_trn_SSP %>%
             filter(region == "USA", energy.final.demand == "trn_pass") %>%
-            mutate(energy.final.demand = paste0(energy.final.demand, "2"))
+            mutate(energy.final.demand = paste0(energy.final.demand, "_other"))
         )
 
       L254.IncomeElasticity_trn_SSP <- L254.IncomeElasticity_trn_SSP %>%
+        mutate(energy.final.demand = ifelse(region == "USA" & energy.final.demand == "trn_pass", paste0(energy.final.demand, "_urban"), energy.final.demand)) %>%
         bind_rows(
           L254.IncomeElasticity_trn_SSP %>%
             filter(region == "USA", energy.final.demand == "trn_pass") %>%
-            mutate(energy.final.demand = paste0(energy.final.demand, "2"))
+            mutate(energy.final.demand = paste0(energy.final.demand, "_other"))
         )
 
       L254.BaseService_trn_SSP <- L254.BaseService_trn_SSP %>%
         mutate(base.service = ifelse(region == "USA" & energy.final.demand == "trn_pass", base.service/2, base.service))
 
       L254.BaseService_trn_SSP <- L254.BaseService_trn_SSP %>%
+        mutate(energy.final.demand = ifelse(region == "USA" & energy.final.demand == "trn_pass", paste0(energy.final.demand, "_urban"), energy.final.demand)) %>%
         bind_rows(
           L254.BaseService_trn_SSP %>%
             filter(region == "USA", energy.final.demand == "trn_pass") %>%
-            mutate(energy.final.demand = paste0(energy.final.demand, "2"))
+            mutate(energy.final.demand = paste0(energy.final.demand, "_other"))
         )
 
       #Create xmls
