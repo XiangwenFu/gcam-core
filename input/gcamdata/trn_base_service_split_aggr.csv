@@ -1,0 +1,1345 @@
+"region","year","supplysector","base.service"
+"Africa_Eastern",1975,"trn_pass_other",29234.7824582503
+"Africa_Eastern",1975,"trn_pass_road_LDV_4W_other",9996.19784552066
+"Africa_Eastern",1975,"trn_pass_road_LDV_4W_urban",9996.19784552066
+"Africa_Eastern",1975,"trn_pass_road_LDV_urban",11365.2991493522
+"Africa_Eastern",1975,"trn_pass_road_other",25773.7911710545
+"Africa_Eastern",1975,"trn_pass_road_urban",27142.892474886
+"Africa_Eastern",1975,"trn_pass_urban",133161.339235569
+"Africa_Eastern",1990,"trn_pass_other",54424.4910816663
+"Africa_Eastern",1990,"trn_pass_road_LDV_4W_other",19264.3814770094
+"Africa_Eastern",1990,"trn_pass_road_LDV_4W_urban",19264.3814770094
+"Africa_Eastern",1990,"trn_pass_road_LDV_urban",21902.7911041083
+"Africa_Eastern",1990,"trn_pass_road_other",49670.625318118
+"Africa_Eastern",1990,"trn_pass_road_urban",52309.0349452168
+"Africa_Eastern",1990,"trn_pass_urban",215069.750085952
+"Africa_Eastern",2005,"trn_pass_other",80580.6396538669
+"Africa_Eastern",2005,"trn_pass_road_LDV_4W_other",27819.9071538351
+"Africa_Eastern",2005,"trn_pass_road_LDV_4W_urban",27819.9071538351
+"Africa_Eastern",2005,"trn_pass_road_LDV_urban",31629.9553785427
+"Africa_Eastern",2005,"trn_pass_road_other",71729.9023468065
+"Africa_Eastern",2005,"trn_pass_road_urban",75539.950571514
+"Africa_Eastern",2005,"trn_pass_urban",323878.930609257
+"Africa_Eastern",2010,"trn_pass_other",119249.46759297
+"Africa_Eastern",2010,"trn_pass_road_LDV_4W_other",42342.1398854071
+"Africa_Eastern",2010,"trn_pass_road_LDV_4W_urban",42342.1398854071
+"Africa_Eastern",2010,"trn_pass_road_LDV_urban",48250.8072654669
+"Africa_Eastern",2010,"trn_pass_road_other",107949.108787704
+"Africa_Eastern",2010,"trn_pass_road_urban",113857.776167763
+"Africa_Eastern",2010,"trn_pass_urban",401180.242691697
+"Africa_Eastern",2015,"trn_pass_other",173201.697501761
+"Africa_Eastern",2015,"trn_pass_road_LDV_4W_other",63397.3084322847
+"Africa_Eastern",2015,"trn_pass_road_LDV_4W_urban",63397.3084322847
+"Africa_Eastern",2015,"trn_pass_road_LDV_urban",72385.8577297113
+"Africa_Eastern",2015,"trn_pass_road_other",159412.077244451
+"Africa_Eastern",2015,"trn_pass_road_urban",168400.626541878
+"Africa_Eastern",2015,"trn_pass_urban",496514.027814469
+"Africa_Eastern",2021,"trn_pass_other",226621.697004759
+"Africa_Eastern",2021,"trn_pass_road_LDV_4W_other",86616.5658427791
+"Africa_Eastern",2021,"trn_pass_road_LDV_4W_urban",86616.5658427791
+"Africa_Eastern",2021,"trn_pass_road_LDV_urban",99178.7460386514
+"Africa_Eastern",2021,"trn_pass_road_other",214658.092549667
+"Africa_Eastern",2021,"trn_pass_road_urban",227220.27274554
+"Africa_Eastern",2021,"trn_pass_urban",610295.942180942
+"Africa_Northern",1975,"trn_pass_other",73607.345470053
+"Africa_Northern",1975,"trn_pass_road_LDV_4W_other",26319.8329177322
+"Africa_Northern",1975,"trn_pass_road_LDV_4W_urban",26319.8329177322
+"Africa_Northern",1975,"trn_pass_road_LDV_urban",29924.4562303208
+"Africa_Northern",1975,"trn_pass_road_other",67862.1014231147
+"Africa_Northern",1975,"trn_pass_road_urban",71466.7247357033
+"Africa_Northern",1975,"trn_pass_urban",158122.239279947
+"Africa_Northern",1990,"trn_pass_other",226439.521399083
+"Africa_Northern",1990,"trn_pass_road_LDV_4W_other",83628.4450065546
+"Africa_Northern",1990,"trn_pass_road_LDV_4W_urban",83628.4450065546
+"Africa_Northern",1990,"trn_pass_road_LDV_urban",95081.8127812075
+"Africa_Northern",1990,"trn_pass_road_other",215624.628097492
+"Africa_Northern",1990,"trn_pass_road_urban",227077.995872145
+"Africa_Northern",1990,"trn_pass_urban",358727.699067456
+"Africa_Northern",2005,"trn_pass_other",404850.003490076
+"Africa_Northern",2005,"trn_pass_road_LDV_4W_other",149615.545499565
+"Africa_Northern",2005,"trn_pass_road_LDV_4W_urban",149615.545499565
+"Africa_Northern",2005,"trn_pass_road_LDV_urban",169783.917814781
+"Africa_Northern",2005,"trn_pass_road_other",385783.596497134
+"Africa_Northern",2005,"trn_pass_road_urban",405951.968812351
+"Africa_Northern",2005,"trn_pass_urban",581184.825629385
+"Africa_Northern",2010,"trn_pass_other",577549.184018651
+"Africa_Northern",2010,"trn_pass_road_LDV_4W_other",217010.421319922
+"Africa_Northern",2010,"trn_pass_road_LDV_4W_urban",217010.421319922
+"Africa_Northern",2010,"trn_pass_road_LDV_urban",246827.930926658
+"Africa_Northern",2010,"trn_pass_road_other",553296.855318341
+"Africa_Northern",2010,"trn_pass_road_urban",583114.364925076
+"Africa_Northern",2010,"trn_pass_urban",774976.045227413
+"Africa_Northern",2015,"trn_pass_other",716427.089211994
+"Africa_Northern",2015,"trn_pass_road_LDV_4W_other",274111.864799424
+"Africa_Northern",2015,"trn_pass_road_LDV_4W_urban",274111.864799424
+"Africa_Northern",2015,"trn_pass_road_LDV_urban",312524.356947282
+"Africa_Northern",2015,"trn_pass_road_other",689300.175319999
+"Africa_Northern",2015,"trn_pass_road_urban",727712.667467857
+"Africa_Northern",2015,"trn_pass_urban",941983.982991074
+"Africa_Northern",2021,"trn_pass_other",735323.153561277
+"Africa_Northern",2021,"trn_pass_road_LDV_4W_other",285455.675840378
+"Africa_Northern",2021,"trn_pass_road_LDV_4W_urban",285455.675840378
+"Africa_Northern",2021,"trn_pass_road_LDV_urban",326113.384557264
+"Africa_Northern",2021,"trn_pass_road_other",707529.365002436
+"Africa_Northern",2021,"trn_pass_road_urban",748187.073719322
+"Africa_Northern",2021,"trn_pass_urban",987812.890440964
+"Africa_Southern",1975,"trn_pass_other",24616.1220784475
+"Africa_Southern",1975,"trn_pass_road_LDV_4W_other",8742.32918186917
+"Africa_Southern",1975,"trn_pass_road_LDV_4W_urban",8742.32918186917
+"Africa_Southern",1975,"trn_pass_road_LDV_urban",9939.57954177693
+"Africa_Southern",1975,"trn_pass_road_other",22540.9014341451
+"Africa_Southern",1975,"trn_pass_road_urban",23738.1517940528
+"Africa_Southern",1975,"trn_pass_urban",80442.2670775485
+"Africa_Southern",1990,"trn_pass_other",37089.3009091442
+"Africa_Southern",1990,"trn_pass_road_LDV_4W_other",12644.0351305535
+"Africa_Southern",1990,"trn_pass_road_LDV_4W_urban",12644.0351305535
+"Africa_Southern",1990,"trn_pass_road_LDV_urban",14375.6822095201
+"Africa_Southern",1990,"trn_pass_road_other",32600.8339835603
+"Africa_Southern",1990,"trn_pass_road_urban",34332.4810625268
+"Africa_Southern",1990,"trn_pass_urban",124942.218597995
+"Africa_Southern",2005,"trn_pass_other",64973.7689751682
+"Africa_Southern",2005,"trn_pass_road_LDV_4W_other",23402.372702099
+"Africa_Southern",2005,"trn_pass_road_LDV_4W_urban",23402.372702099
+"Africa_Southern",2005,"trn_pass_road_LDV_urban",26607.4259821358
+"Africa_Southern",2005,"trn_pass_road_other",60339.7104833604
+"Africa_Southern",2005,"trn_pass_road_urban",63544.7637633972
+"Africa_Southern",2005,"trn_pass_urban",195669.768287312
+"Africa_Southern",2010,"trn_pass_other",96999.4867211234
+"Africa_Southern",2010,"trn_pass_road_LDV_4W_other",35629.9260855141
+"Africa_Southern",2010,"trn_pass_road_LDV_4W_urban",35629.9260855141
+"Africa_Southern",2010,"trn_pass_road_LDV_urban",40601.9325009013
+"Africa_Southern",2010,"trn_pass_road_other",90836.8425376194
+"Africa_Southern",2010,"trn_pass_road_urban",95808.8489530066
+"Africa_Southern",2010,"trn_pass_urban",247044.845346943
+"Africa_Southern",2015,"trn_pass_other",147281.359063174
+"Africa_Southern",2015,"trn_pass_road_LDV_4W_other",56215.5048680231
+"Africa_Southern",2015,"trn_pass_road_LDV_4W_urban",56215.5048680231
+"Africa_Southern",2015,"trn_pass_road_LDV_urban",64184.4043108947
+"Africa_Southern",2015,"trn_pass_road_other",141353.665565489
+"Africa_Southern",2015,"trn_pass_road_urban",149322.565008361
+"Africa_Southern",2015,"trn_pass_urban",324905.298258179
+"Africa_Southern",2021,"trn_pass_other",165376.442886246
+"Africa_Southern",2021,"trn_pass_road_LDV_4W_other",65361.4825465011
+"Africa_Southern",2021,"trn_pass_road_LDV_4W_urban",65361.4825465011
+"Africa_Southern",2021,"trn_pass_road_LDV_urban",74838.0513881843
+"Africa_Southern",2021,"trn_pass_road_other",161982.903592633
+"Africa_Southern",2021,"trn_pass_road_urban",171459.472434316
+"Africa_Southern",2021,"trn_pass_urban",380908.653486492
+"Africa_Western",1975,"trn_pass_other",53823.9890259883
+"Africa_Western",1975,"trn_pass_road_LDV_4W_other",19103.8017832186
+"Africa_Western",1975,"trn_pass_road_LDV_4W_urban",19103.8017832186
+"Africa_Western",1975,"trn_pass_road_LDV_urban",21720.1826406716
+"Africa_Western",1975,"trn_pass_road_other",49256.4424031951
+"Africa_Western",1975,"trn_pass_road_urban",51872.8232606482
+"Africa_Western",1975,"trn_pass_urban",224997.820702531
+"Africa_Western",1990,"trn_pass_other",107970.708453978
+"Africa_Western",1990,"trn_pass_road_LDV_4W_other",39289.6068472619
+"Africa_Western",1990,"trn_pass_road_LDV_4W_urban",39289.6068472619
+"Africa_Western",1990,"trn_pass_road_LDV_urban",44670.5982952668
+"Africa_Western",1990,"trn_pass_road_other",101302.941083718
+"Africa_Western",1990,"trn_pass_road_urban",106683.932531723
+"Africa_Western",1990,"trn_pass_urban",368371.643722231
+"Africa_Western",2005,"trn_pass_other",236959.903455129
+"Africa_Western",2005,"trn_pass_road_LDV_4W_other",88280.3958316567
+"Africa_Western",2005,"trn_pass_road_LDV_4W_urban",88280.3958316567
+"Africa_Western",2005,"trn_pass_road_LDV_urban",100370.872781428
+"Africa_Western",2005,"trn_pass_road_other",227619.050512298
+"Africa_Western",2005,"trn_pass_road_urban",239709.527462069
+"Africa_Western",2005,"trn_pass_urban",634837.01227589
+"Africa_Western",2010,"trn_pass_other",288991.590898508
+"Africa_Western",2010,"trn_pass_road_LDV_4W_other",108225.927821272
+"Africa_Western",2010,"trn_pass_road_LDV_4W_urban",108225.927821272
+"Africa_Western",2010,"trn_pass_road_LDV_urban",123328.397308011
+"Africa_Western",2010,"trn_pass_road_other",275916.607211457
+"Africa_Western",2010,"trn_pass_road_urban",291019.076698196
+"Africa_Western",2010,"trn_pass_urban",746952.024116876
+"Africa_Western",2015,"trn_pass_other",400924.795267812
+"Africa_Western",2015,"trn_pass_road_LDV_4W_other",154712.185620412
+"Africa_Western",2015,"trn_pass_road_LDV_4W_urban",154712.185620412
+"Africa_Western",2015,"trn_pass_road_LDV_urban",176647.347234387
+"Africa_Western",2015,"trn_pass_road_other",389022.634418164
+"Africa_Western",2015,"trn_pass_road_urban",410957.796032139
+"Africa_Western",2015,"trn_pass_urban",936676.947352255
+"Africa_Western",2021,"trn_pass_other",500339.596274765
+"Africa_Western",2021,"trn_pass_road_LDV_4W_other",196949.351003798
+"Africa_Western",2021,"trn_pass_road_LDV_4W_urban",196949.351003798
+"Africa_Western",2021,"trn_pass_road_LDV_urban",225513.286197764
+"Africa_Western",2021,"trn_pass_road_other",488091.127659616
+"Africa_Western",2021,"trn_pass_road_urban",516655.062853582
+"Africa_Western",2021,"trn_pass_urban",1136002.29567127
+"Argentina",1975,"trn_pass_other",68697.9367123672
+"Argentina",1975,"trn_pass_road_LDV_4W_other",39837.8429009427
+"Argentina",1975,"trn_pass_road_LDV_4W_urban",39837.8429009427
+"Argentina",1975,"trn_pass_road_LDV_urban",47477.8477266891
+"Argentina",1975,"trn_pass_road_other",66310.828151839
+"Argentina",1975,"trn_pass_road_urban",73950.8329775854
+"Argentina",1975,"trn_pass_urban",107666.688394077
+"Argentina",1990,"trn_pass_other",85419.1353488447
+"Argentina",1990,"trn_pass_road_LDV_4W_other",49604.8294063862
+"Argentina",1990,"trn_pass_road_LDV_4W_urban",49604.8294063862
+"Argentina",1990,"trn_pass_road_LDV_urban",58721.1126041985
+"Argentina",1990,"trn_pass_road_other",82209.2185565189
+"Argentina",1990,"trn_pass_road_urban",91325.5017543312
+"Argentina",1990,"trn_pass_urban",133775.269545641
+"Argentina",2005,"trn_pass_other",131744.071966142
+"Argentina",2005,"trn_pass_road_LDV_4W_other",78920.4240636857
+"Argentina",2005,"trn_pass_road_LDV_4W_urban",78920.4240636857
+"Argentina",2005,"trn_pass_road_LDV_urban",88291.3564723358
+"Argentina",2005,"trn_pass_road_other",126151.212912306
+"Argentina",2005,"trn_pass_road_urban",135522.145320956
+"Argentina",2005,"trn_pass_urban",186608.106809292
+"Argentina",2010,"trn_pass_other",155051.560468891
+"Argentina",2010,"trn_pass_road_LDV_4W_other",93143.8781141433
+"Argentina",2010,"trn_pass_road_LDV_4W_urban",93143.8781141433
+"Argentina",2010,"trn_pass_road_LDV_urban",105981.656614504
+"Argentina",2010,"trn_pass_road_other",148420.747550047
+"Argentina",2010,"trn_pass_road_urban",161258.526050408
+"Argentina",2010,"trn_pass_urban",215023.191597547
+"Argentina",2015,"trn_pass_other",176416.254971999
+"Argentina",2015,"trn_pass_road_LDV_4W_other",107966.085462387
+"Argentina",2015,"trn_pass_road_LDV_4W_urban",107966.085462387
+"Argentina",2015,"trn_pass_road_LDV_urban",122846.931237348
+"Argentina",2015,"trn_pass_road_other",169632.747660921
+"Argentina",2015,"trn_pass_road_urban",184513.593435883
+"Argentina",2015,"trn_pass_urban",240942.621085377
+"Argentina",2021,"trn_pass_other",175662.694437396
+"Argentina",2021,"trn_pass_road_LDV_4W_other",110874.74541086
+"Argentina",2021,"trn_pass_road_LDV_4W_urban",110874.74541086
+"Argentina",2021,"trn_pass_road_LDV_urban",127332.85672251
+"Argentina",2021,"trn_pass_road_other",172257.680746306
+"Argentina",2021,"trn_pass_road_urban",188715.792057957
+"Argentina",2021,"trn_pass_urban",247681.221580324
+"Australia_NZ",1975,"trn_pass_other",93586.9121220458
+"Australia_NZ",1975,"trn_pass_road_LDV_4W_other",76581.8540178361
+"Australia_NZ",1975,"trn_pass_road_LDV_4W_urban",76581.8540178361
+"Australia_NZ",1975,"trn_pass_road_LDV_urban",77612.9066464588
+"Australia_NZ",1975,"trn_pass_road_other",81251.7000980998
+"Australia_NZ",1975,"trn_pass_road_urban",82282.7527267225
+"Australia_NZ",1975,"trn_pass_urban",94712.0645004919
+"Australia_NZ",1990,"trn_pass_other",151234.171890998
+"Australia_NZ",1990,"trn_pass_road_LDV_4W_other",119632.733056967
+"Australia_NZ",1990,"trn_pass_road_LDV_4W_urban",119632.733056967
+"Australia_NZ",1990,"trn_pass_road_LDV_urban",121243.366022318
+"Australia_NZ",1990,"trn_pass_road_other",128123.750544005
+"Australia_NZ",1990,"trn_pass_road_urban",129734.383509356
+"Australia_NZ",1990,"trn_pass_urban",147775.863458293
+"Australia_NZ",2005,"trn_pass_other",206680.864254448
+"Australia_NZ",2005,"trn_pass_road_LDV_4W_other",157843.976827118
+"Australia_NZ",2005,"trn_pass_road_LDV_4W_urban",157843.976827118
+"Australia_NZ",2005,"trn_pass_road_LDV_urban",159969.104728453
+"Australia_NZ",2005,"trn_pass_road_other",168325.930754483
+"Australia_NZ",2005,"trn_pass_road_urban",170451.058655817
+"Australia_NZ",2005,"trn_pass_urban",195990.647498637
+"Australia_NZ",2010,"trn_pass_other",232983.983405547
+"Australia_NZ",2010,"trn_pass_road_LDV_4W_other",172904.417299741
+"Australia_NZ",2010,"trn_pass_road_LDV_4W_urban",172904.417299741
+"Australia_NZ",2010,"trn_pass_road_LDV_urban",175232.322424361
+"Australia_NZ",2010,"trn_pass_road_other",184205.509342805
+"Australia_NZ",2010,"trn_pass_road_urban",186533.414467425
+"Australia_NZ",2010,"trn_pass_urban",213789.944839372
+"Australia_NZ",2015,"trn_pass_other",261511.738936985
+"Australia_NZ",2015,"trn_pass_road_LDV_4W_other",187389.698016928
+"Australia_NZ",2015,"trn_pass_road_LDV_4W_urban",187389.698016928
+"Australia_NZ",2015,"trn_pass_road_LDV_urban",189912.626933691
+"Australia_NZ",2015,"trn_pass_road_other",199749.652946623
+"Australia_NZ",2015,"trn_pass_road_urban",202272.581863386
+"Australia_NZ",2015,"trn_pass_urban",236924.071811914
+"Australia_NZ",2021,"trn_pass_other",242957.155081883
+"Australia_NZ",2021,"trn_pass_road_LDV_4W_other",191081.322421155
+"Australia_NZ",2021,"trn_pass_road_LDV_4W_urban",191081.322421155
+"Australia_NZ",2021,"trn_pass_road_LDV_urban",193653.988469335
+"Australia_NZ",2021,"trn_pass_road_other",202548.263195022
+"Australia_NZ",2021,"trn_pass_road_urban",205120.929243202
+"Australia_NZ",2021,"trn_pass_urban",243224.356172045
+"Brazil",1975,"trn_pass_other",195699.096396232
+"Brazil",1975,"trn_pass_road_LDV_4W_other",115897.230120445
+"Brazil",1975,"trn_pass_road_LDV_4W_urban",115897.230120445
+"Brazil",1975,"trn_pass_road_LDV_urban",155896.231291721
+"Brazil",1975,"trn_pass_road_other",185214.359924089
+"Brazil",1975,"trn_pass_road_urban",225213.361095366
+"Brazil",1975,"trn_pass_urban",249990.30677499
+"Brazil",1990,"trn_pass_other",308440.885896065
+"Brazil",1990,"trn_pass_road_LDV_4W_other",181259.997147206
+"Brazil",1990,"trn_pass_road_LDV_4W_urban",181259.997147206
+"Brazil",1990,"trn_pass_road_LDV_urban",243808.024206448
+"Brazil",1990,"trn_pass_road_other",289653.734558317
+"Brazil",1990,"trn_pass_road_urban",352201.761617559
+"Brazil",1990,"trn_pass_urban",387104.907196855
+"Brazil",2005,"trn_pass_other",508598.364223072
+"Brazil",2005,"trn_pass_road_LDV_4W_other",309772.160147655
+"Brazil",2005,"trn_pass_road_LDV_4W_urban",309772.160147655
+"Brazil",2005,"trn_pass_road_LDV_urban",408630.984818924
+"Brazil",2005,"trn_pass_road_other",481091.538510466
+"Brazil",2005,"trn_pass_road_urban",579950.363181735
+"Brazil",2005,"trn_pass_urban",623274.922114765
+"Brazil",2010,"trn_pass_other",692443.505756407
+"Brazil",2010,"trn_pass_road_LDV_4W_other",423568.787120827
+"Brazil",2010,"trn_pass_road_LDV_4W_urban",423568.787120827
+"Brazil",2010,"trn_pass_road_LDV_urban",561134.042470271
+"Brazil",2010,"trn_pass_road_other",653173.956390745
+"Brazil",2010,"trn_pass_road_urban",790739.211740189
+"Brazil",2010,"trn_pass_urban",837939.301774124
+"Brazil",2015,"trn_pass_other",861483.127261876
+"Brazil",2015,"trn_pass_road_LDV_4W_other",531925.862099367
+"Brazil",2015,"trn_pass_road_LDV_4W_urban",531925.862099367
+"Brazil",2015,"trn_pass_road_LDV_urban",707644.05114933
+"Brazil",2015,"trn_pass_road_other",813977.562077522
+"Brazil",2015,"trn_pass_road_urban",989695.751127486
+"Brazil",2015,"trn_pass_urban",1040343.32623691
+"Brazil",2021,"trn_pass_other",898268.261705121
+"Brazil",2021,"trn_pass_road_LDV_4W_other",576101.34016662
+"Brazil",2021,"trn_pass_road_LDV_4W_urban",576101.34016662
+"Brazil",2021,"trn_pass_road_LDV_urban",764822.459071798
+"Brazil",2021,"trn_pass_road_other",865026.5776318
+"Brazil",2021,"trn_pass_road_urban",1053747.69653698
+"Brazil",2021,"trn_pass_urban",1106393.52775628
+"Canada",1975,"trn_pass_other",319557.55519081
+"Canada",1975,"trn_pass_road_LDV_4W_other",251397.70434398
+"Canada",1975,"trn_pass_road_LDV_4W_urban",251397.70434398
+"Canada",1975,"trn_pass_road_LDV_urban",253347.598410185
+"Canada",1975,"trn_pass_road_other",276539.79046377
+"Canada",1975,"trn_pass_road_urban",278489.684529975
+"Canada",1975,"trn_pass_urban",286430.412647537
+"Canada",1990,"trn_pass_other",365009.118730207
+"Canada",1990,"trn_pass_road_LDV_4W_other",280188.440981138
+"Canada",1990,"trn_pass_road_LDV_4W_urban",280188.440981138
+"Canada",1990,"trn_pass_road_LDV_urban",282360.158864075
+"Canada",1990,"trn_pass_road_other",308722.458585373
+"Canada",1990,"trn_pass_road_urban",310894.17646831
+"Canada",1990,"trn_pass_urban",321765.877689885
+"Canada",2005,"trn_pass_other",491460.929335123
+"Canada",2005,"trn_pass_road_LDV_4W_other",378458.929782695
+"Canada",2005,"trn_pass_road_LDV_4W_urban",378458.929782695
+"Canada",2005,"trn_pass_road_LDV_urban",381392.691329204
+"Canada",2005,"trn_pass_road_other",416877.830683755
+"Canada",2005,"trn_pass_road_urban",419811.592230264
+"Canada",2005,"trn_pass_urban",433152.295560797
+"Canada",2010,"trn_pass_other",542460.517680673
+"Canada",2010,"trn_pass_road_LDV_4W_other",431802.175515757
+"Canada",2010,"trn_pass_road_LDV_4W_urban",431802.175515757
+"Canada",2010,"trn_pass_road_LDV_urban",435149.612253119
+"Canada",2010,"trn_pass_road_other",473978.077125192
+"Canada",2010,"trn_pass_road_urban",477325.513862555
+"Canada",2010,"trn_pass_urban",491253.02741607
+"Canada",2015,"trn_pass_other",583718.840833146
+"Canada",2015,"trn_pass_road_LDV_4W_other",455933.575580277
+"Canada",2015,"trn_pass_road_LDV_4W_urban",455933.575580277
+"Canada",2015,"trn_pass_road_LDV_urban",459466.244946992
+"Canada",2015,"trn_pass_road_other",499364.667006306
+"Canada",2015,"trn_pass_road_urban",502897.336373021
+"Canada",2015,"trn_pass_urban",518513.790026194
+"Canada",2021,"trn_pass_other",543204.536607868
+"Canada",2021,"trn_pass_road_LDV_4W_other",443316.764504058
+"Canada",2021,"trn_pass_road_LDV_4W_urban",443316.764504058
+"Canada",2021,"trn_pass_road_LDV_urban",446750.700059511
+"Canada",2021,"trn_pass_road_other",483895.840107074
+"Canada",2021,"trn_pass_road_urban",487329.775662526
+"Canada",2021,"trn_pass_urban",503244.129945549
+"Central America and Caribbean",1975,"trn_pass_other",44639.0904648163
+"Central America and Caribbean",1975,"trn_pass_road_LDV_4W_other",24505.4018642063
+"Central America and Caribbean",1975,"trn_pass_road_LDV_4W_urban",24505.4018642063
+"Central America and Caribbean",1975,"trn_pass_road_LDV_urban",29198.8397197208
+"Central America and Caribbean",1975,"trn_pass_road_other",40768.4626011751
+"Central America and Caribbean",1975,"trn_pass_road_urban",45461.9004566895
+"Central America and Caribbean",1975,"trn_pass_urban",103094.79262622
+"Central America and Caribbean",1990,"trn_pass_other",63602.7933786105
+"Central America and Caribbean",1990,"trn_pass_road_LDV_4W_other",35301.0608616281
+"Central America and Caribbean",1990,"trn_pass_road_LDV_4W_urban",35301.0608616281
+"Central America and Caribbean",1990,"trn_pass_road_LDV_urban",42039.4396046188
+"Central America and Caribbean",1990,"trn_pass_road_other",58639.2004438615
+"Central America and Caribbean",1990,"trn_pass_road_urban",65377.5791868521
+"Central America and Caribbean",1990,"trn_pass_urban",142310.881657904
+"Central America and Caribbean",2005,"trn_pass_other",112765.567061756
+"Central America and Caribbean",2005,"trn_pass_road_LDV_4W_other",61824.1915319173
+"Central America and Caribbean",2005,"trn_pass_road_LDV_4W_urban",61824.1915319173
+"Central America and Caribbean",2005,"trn_pass_road_LDV_urban",73639.1920159204
+"Central America and Caribbean",2005,"trn_pass_road_other",102764.770756935
+"Central America and Caribbean",2005,"trn_pass_road_urban",114579.771240938
+"Central America and Caribbean",2005,"trn_pass_urban",212126.752685552
+"Central America and Caribbean",2010,"trn_pass_other",129310.633639146
+"Central America and Caribbean",2010,"trn_pass_road_LDV_4W_other",72080.3713353987
+"Central America and Caribbean",2010,"trn_pass_road_LDV_4W_urban",72080.3713353987
+"Central America and Caribbean",2010,"trn_pass_road_LDV_urban",85850.7564292077
+"Central America and Caribbean",2010,"trn_pass_road_other",118057.899407627
+"Central America and Caribbean",2010,"trn_pass_road_urban",131828.284501436
+"Central America and Caribbean",2010,"trn_pass_urban",236049.897645996
+"Central America and Caribbean",2015,"trn_pass_other",147783.621486699
+"Central America and Caribbean",2015,"trn_pass_road_LDV_4W_other",83660.7765701047
+"Central America and Caribbean",2015,"trn_pass_road_LDV_4W_urban",83660.7765701047
+"Central America and Caribbean",2015,"trn_pass_road_LDV_urban",99621.7778181441
+"Central America and Caribbean",2015,"trn_pass_road_other",135039.583737455
+"Central America and Caribbean",2015,"trn_pass_road_urban",151000.584985494
+"Central America and Caribbean",2015,"trn_pass_urban",261946.101102465
+"Central America and Caribbean",2021,"trn_pass_other",169994.605098905
+"Central America and Caribbean",2021,"trn_pass_road_LDV_4W_other",100926.034295958
+"Central America and Caribbean",2021,"trn_pass_road_LDV_4W_urban",100926.034295958
+"Central America and Caribbean",2021,"trn_pass_road_LDV_urban",120214.809523604
+"Central America and Caribbean",2021,"trn_pass_road_other",160113.900172465
+"Central America and Caribbean",2021,"trn_pass_road_urban",179402.675400111
+"Central America and Caribbean",2021,"trn_pass_urban",297515.921351116
+"Central Asia",1975,"trn_pass_other",150980.500248506
+"Central Asia",1975,"trn_pass_road_LDV_4W_other",84601.4939546574
+"Central Asia",1975,"trn_pass_road_LDV_4W_urban",84601.4939546574
+"Central Asia",1975,"trn_pass_road_LDV_urban",103173.396301664
+"Central Asia",1975,"trn_pass_road_other",119251.516197846
+"Central Asia",1975,"trn_pass_road_urban",137823.418544852
+"Central Asia",1975,"trn_pass_urban",215722.603543992
+"Central Asia",1990,"trn_pass_other",218931.693170282
+"Central Asia",1990,"trn_pass_road_LDV_4W_other",102994.910897768
+"Central Asia",1990,"trn_pass_road_LDV_4W_urban",102994.910897768
+"Central Asia",1990,"trn_pass_road_LDV_urban",127282.992362863
+"Central Asia",1990,"trn_pass_road_other",175295.844681148
+"Central Asia",1990,"trn_pass_road_urban",199583.926146243
+"Central Asia",1990,"trn_pass_urban",294810.10628935
+"Central Asia",2005,"trn_pass_other",145270.493819085
+"Central Asia",2005,"trn_pass_road_LDV_4W_other",67984.8498550039
+"Central Asia",2005,"trn_pass_road_LDV_4W_urban",67984.8498550039
+"Central Asia",2005,"trn_pass_road_LDV_urban",84301.4116000397
+"Central Asia",2005,"trn_pass_road_other",117995.663049912
+"Central Asia",2005,"trn_pass_road_urban",134312.224794948
+"Central Asia",2005,"trn_pass_urban",228775.959073862
+"Central Asia",2010,"trn_pass_other",191624.717271204
+"Central Asia",2010,"trn_pass_road_LDV_4W_other",89989.2003921378
+"Central Asia",2010,"trn_pass_road_LDV_4W_urban",89989.2003921378
+"Central Asia",2010,"trn_pass_road_LDV_urban",111496.227844909
+"Central Asia",2010,"trn_pass_road_other",158983.547409408
+"Central Asia",2010,"trn_pass_road_urban",180490.57486218
+"Central Asia",2010,"trn_pass_urban",280948.267436441
+"Central Asia",2015,"trn_pass_other",238893.151234764
+"Central Asia",2015,"trn_pass_road_LDV_4W_other",108916.55266682
+"Central Asia",2015,"trn_pass_road_LDV_4W_urban",108916.55266682
+"Central Asia",2015,"trn_pass_road_LDV_urban",135203.609549347
+"Central Asia",2015,"trn_pass_road_other",208410.356715992
+"Central Asia",2015,"trn_pass_road_urban",234697.413598519
+"Central Asia",2015,"trn_pass_urban",342386.799788073
+"Central Asia",2021,"trn_pass_other",371843.347336692
+"Central Asia",2021,"trn_pass_road_LDV_4W_other",148365.531863026
+"Central Asia",2021,"trn_pass_road_LDV_4W_urban",148365.531863026
+"Central Asia",2021,"trn_pass_road_LDV_urban",183055.405162213
+"Central Asia",2021,"trn_pass_road_other",341713.967270827
+"Central Asia",2021,"trn_pass_road_urban",376403.840570014
+"Central Asia",2021,"trn_pass_urban",493040.857936254
+"China",1975,"trn_pass_other",266881.168720098
+"China",1975,"trn_pass_road_LDV_4W_other",35576.5883296453
+"China",1975,"trn_pass_road_LDV_4W_urban",35576.5883296453
+"China",1975,"trn_pass_road_LDV_urban",122111.306827315
+"China",1975,"trn_pass_road_other",231083.810408684
+"China",1975,"trn_pass_road_urban",317618.528906354
+"China",1975,"trn_pass_urban",1161679.10839828
+"China",1990,"trn_pass_other",503104.598060596
+"China",1990,"trn_pass_road_LDV_4W_other",66610.5115540808
+"China",1990,"trn_pass_road_LDV_4W_urban",66610.5115540808
+"China",1990,"trn_pass_road_LDV_urban",259716.069393009
+"China",1990,"trn_pass_road_other",414588.109649094
+"China",1990,"trn_pass_road_urban",607693.667488023
+"China",1990,"trn_pass_urban",1704184.28183611
+"China",2005,"trn_pass_other",2741999.89752088
+"China",2005,"trn_pass_road_LDV_4W_other",344893.551327694
+"China",2005,"trn_pass_road_LDV_4W_urban",344893.551327694
+"China",2005,"trn_pass_road_LDV_urban",1172101.68195552
+"China",2005,"trn_pass_road_other",2282421.6334885
+"China",2005,"trn_pass_road_urban",3109629.76411633
+"China",2005,"trn_pass_urban",4618765.69751075
+"China",2010,"trn_pass_other",4262298.87051437
+"China",2010,"trn_pass_road_LDV_4W_other",519764.804737857
+"China",2010,"trn_pass_road_LDV_4W_urban",519764.804737857
+"China",2010,"trn_pass_road_LDV_urban",1766221.88367725
+"China",2010,"trn_pass_road_other",3525698.12804207
+"China",2010,"trn_pass_road_urban",4772155.20698147
+"China",2010,"trn_pass_urban",6523406.30782906
+"China",2015,"trn_pass_other",6633600.51352643
+"China",2015,"trn_pass_road_LDV_4W_other",792826.025078682
+"China",2015,"trn_pass_road_LDV_4W_urban",792826.025078682
+"China",2015,"trn_pass_road_LDV_urban",2678049.95275375
+"China",2015,"trn_pass_road_other",5480336.36192517
+"China",2015,"trn_pass_road_urban",7365560.28960024
+"China",2015,"trn_pass_urban",9468380.00764925
+"China",2021,"trn_pass_other",8279788.46472494
+"China",2021,"trn_pass_road_LDV_4W_other",942212.016401913
+"China",2021,"trn_pass_road_LDV_4W_urban",942212.016401913
+"China",2021,"trn_pass_road_LDV_urban",3467149.90561499
+"China",2021,"trn_pass_road_other",6591921.8593931
+"China",2021,"trn_pass_road_urban",9116859.74860618
+"China",2021,"trn_pass_urban",11682014.2975475
+"Colombia",1975,"trn_pass_other",29737.2415426364
+"Colombia",1975,"trn_pass_road_LDV_4W_other",17030.2521061254
+"Colombia",1975,"trn_pass_road_LDV_4W_urban",17030.2521061254
+"Colombia",1975,"trn_pass_road_LDV_urban",20296.2977957335
+"Colombia",1975,"trn_pass_road_other",28347.1853059077
+"Colombia",1975,"trn_pass_road_urban",31613.2309955159
+"Colombia",1975,"trn_pass_urban",61754.115574565
+"Colombia",1990,"trn_pass_other",51934.364473439
+"Colombia",1990,"trn_pass_road_LDV_4W_other",29880.257023943
+"Colombia",1990,"trn_pass_road_LDV_4W_urban",29880.257023943
+"Colombia",1990,"trn_pass_road_LDV_urban",35582.1620274599
+"Colombia",1990,"trn_pass_road_other",49710.4017426492
+"Colombia",1990,"trn_pass_road_urban",55412.3067461661
+"Colombia",1990,"trn_pass_urban",97403.56623386
+"Colombia",2005,"trn_pass_other",63680.37531906
+"Colombia",2005,"trn_pass_road_LDV_4W_other",36957.1092156815
+"Colombia",2005,"trn_pass_road_LDV_4W_urban",36957.1092156815
+"Colombia",2005,"trn_pass_road_LDV_urban",43522.8484671011
+"Colombia",2005,"trn_pass_road_other",61043.8671894447
+"Colombia",2005,"trn_pass_road_urban",67609.6064408644
+"Colombia",2005,"trn_pass_urban",122049.388665346
+"Colombia",2010,"trn_pass_other",72932.9231544761
+"Colombia",2010,"trn_pass_road_LDV_4W_other",43057.6396161967
+"Colombia",2010,"trn_pass_road_LDV_4W_urban",43057.6396161967
+"Colombia",2010,"trn_pass_road_LDV_urban",50060.5715012902
+"Colombia",2010,"trn_pass_road_other",69536.7160505958
+"Colombia",2010,"trn_pass_road_urban",76539.6479356894
+"Colombia",2010,"trn_pass_urban",134341.601720333
+"Colombia",2015,"trn_pass_other",106627.327834699
+"Colombia",2015,"trn_pass_road_LDV_4W_other",63124.686219451
+"Colombia",2015,"trn_pass_road_LDV_4W_urban",63124.686219451
+"Colombia",2015,"trn_pass_road_LDV_urban",73737.2548540787
+"Colombia",2015,"trn_pass_road_other",100765.27862744
+"Colombia",2015,"trn_pass_road_urban",111377.847262067
+"Colombia",2015,"trn_pass_urban",172203.638720589
+"Colombia",2021,"trn_pass_other",129010.818453901
+"Colombia",2021,"trn_pass_road_LDV_4W_other",79137.0639934561
+"Colombia",2021,"trn_pass_road_LDV_4W_urban",79137.0639934561
+"Colombia",2021,"trn_pass_road_LDV_urban",93316.6975359337
+"Colombia",2021,"trn_pass_road_other",124860.977799636
+"Colombia",2021,"trn_pass_road_urban",139040.611342114
+"Colombia",2021,"trn_pass_urban",205522.015490021
+"EU-12",1975,"trn_pass_other",240408.934497128
+"EU-12",1975,"trn_pass_road_LDV_4W_other",162526.442059118
+"EU-12",1975,"trn_pass_road_LDV_4W_urban",162526.442059118
+"EU-12",1975,"trn_pass_road_LDV_urban",179306.928239369
+"EU-12",1975,"trn_pass_road_other",212296.144740537
+"EU-12",1975,"trn_pass_road_urban",229076.630920789
+"EU-12",1975,"trn_pass_urban",317887.161737056
+"EU-12",1990,"trn_pass_other",317160.473543497
+"EU-12",1990,"trn_pass_road_LDV_4W_other",205373.322795032
+"EU-12",1990,"trn_pass_road_LDV_4W_urban",205373.322795032
+"EU-12",1990,"trn_pass_road_LDV_urban",226823.203343523
+"EU-12",1990,"trn_pass_road_other",267770.2615285
+"EU-12",1990,"trn_pass_road_urban",289220.142076992
+"EU-12",1990,"trn_pass_urban",399810.692858047
+"EU-12",2005,"trn_pass_other",435311.806072983
+"EU-12",2005,"trn_pass_road_LDV_4W_other",304206.400809579
+"EU-12",2005,"trn_pass_road_LDV_4W_urban",304206.400809579
+"EU-12",2005,"trn_pass_road_LDV_urban",333978.51019739
+"EU-12",2005,"trn_pass_road_other",396579.330419711
+"EU-12",2005,"trn_pass_road_urban",426351.439807522
+"EU-12",2005,"trn_pass_urban",523934.911579794
+"EU-12",2010,"trn_pass_other",525751.951491405
+"EU-12",2010,"trn_pass_road_LDV_4W_other",377852.261923803
+"EU-12",2010,"trn_pass_road_LDV_4W_urban",377852.261923803
+"EU-12",2010,"trn_pass_road_LDV_urban",414540.451988667
+"EU-12",2010,"trn_pass_road_other",489689.603792161
+"EU-12",2010,"trn_pass_road_urban",526377.793857025
+"EU-12",2010,"trn_pass_urban",619831.201970468
+"EU-12",2015,"trn_pass_other",553949.094920843
+"EU-12",2015,"trn_pass_road_LDV_4W_other",402310.245550255
+"EU-12",2015,"trn_pass_road_LDV_4W_urban",402310.245550255
+"EU-12",2015,"trn_pass_road_LDV_urban",441609.227101653
+"EU-12",2015,"trn_pass_road_other",519292.18758796
+"EU-12",2015,"trn_pass_road_urban",558591.169139358
+"EU-12",2015,"trn_pass_urban",649499.74890572
+"EU-12",2021,"trn_pass_other",718999.733703014
+"EU-12",2021,"trn_pass_road_LDV_4W_other",531423.145063777
+"EU-12",2021,"trn_pass_road_LDV_4W_urban",531423.145063777
+"EU-12",2021,"trn_pass_road_LDV_urban",583065.515521625
+"EU-12",2021,"trn_pass_road_other",682339.895379923
+"EU-12",2021,"trn_pass_road_urban",733982.265837771
+"EU-12",2021,"trn_pass_urban",827420.209276804
+"EU-15",1975,"trn_pass_other",1781038.83396707
+"EU-15",1975,"trn_pass_road_LDV_4W_other",1321685.58121394
+"EU-15",1975,"trn_pass_road_LDV_4W_urban",1321685.58121394
+"EU-15",1975,"trn_pass_road_LDV_urban",1375180.04796636
+"EU-15",1975,"trn_pass_road_other",1536691.28778998
+"EU-15",1975,"trn_pass_road_urban",1590185.7545424
+"EU-15",1975,"trn_pass_urban",1860434.47677891
+"EU-15",1990,"trn_pass_other",2890504.95403776
+"EU-15",1990,"trn_pass_road_LDV_4W_other",2161912.24098501
+"EU-15",1990,"trn_pass_road_LDV_4W_urban",2161912.24098501
+"EU-15",1990,"trn_pass_road_LDV_urban",2249420.92793049
+"EU-15",1990,"trn_pass_road_other",2506792.14271039
+"EU-15",1990,"trn_pass_road_urban",2594300.82965586
+"EU-15",1990,"trn_pass_urban",2929188.84792325
+"EU-15",2005,"trn_pass_other",3646003.5636099
+"EU-15",2005,"trn_pass_road_LDV_4W_other",2655918.93774862
+"EU-15",2005,"trn_pass_road_LDV_4W_urban",2655918.93774862
+"EU-15",2005,"trn_pass_road_LDV_urban",2763425.34025481
+"EU-15",2005,"trn_pass_road_other",3088708.67743352
+"EU-15",2005,"trn_pass_road_urban",3196215.07993972
+"EU-15",2005,"trn_pass_urban",3570408.71124092
+"EU-15",2010,"trn_pass_other",3641768.93620746
+"EU-15",2010,"trn_pass_road_LDV_4W_other",2655533.69865936
+"EU-15",2010,"trn_pass_road_LDV_4W_urban",2655533.69865936
+"EU-15",2010,"trn_pass_road_LDV_urban",2763151.90453813
+"EU-15",2010,"trn_pass_road_other",3089825.1308789
+"EU-15",2010,"trn_pass_road_urban",3197443.33675768
+"EU-15",2010,"trn_pass_urban",3569582.39633234
+"EU-15",2015,"trn_pass_other",3707679.23254841
+"EU-15",2015,"trn_pass_road_LDV_4W_other",2687530.2937653
+"EU-15",2015,"trn_pass_road_LDV_4W_urban",2687530.2937653
+"EU-15",2015,"trn_pass_road_LDV_urban",2796572.44937652
+"EU-15",2015,"trn_pass_road_other",3128642.45073893
+"EU-15",2015,"trn_pass_road_urban",3237684.60635015
+"EU-15",2015,"trn_pass_urban",3614045.24379658
+"EU-15",2021,"trn_pass_other",3572058.08283271
+"EU-15",2021,"trn_pass_road_LDV_4W_other",2671429.76011099
+"EU-15",2021,"trn_pass_road_LDV_4W_urban",2671429.76011099
+"EU-15",2021,"trn_pass_road_LDV_urban",2779976.53550434
+"EU-15",2021,"trn_pass_road_other",3114233.12751242
+"EU-15",2021,"trn_pass_road_urban",3222779.90290578
+"EU-15",2021,"trn_pass_urban",3614895.82758735
+"Europe_Non_EU",1975,"trn_pass_other",127840.495152979
+"Europe_Non_EU",1975,"trn_pass_road_LDV_4W_other",88376.5581735591
+"Europe_Non_EU",1975,"trn_pass_road_LDV_4W_urban",88376.5581735591
+"Europe_Non_EU",1975,"trn_pass_road_LDV_urban",97390.4904994911
+"Europe_Non_EU",1975,"trn_pass_road_other",110942.829409349
+"Europe_Non_EU",1975,"trn_pass_road_urban",119956.761735281
+"Europe_Non_EU",1975,"trn_pass_urban",180131.719276604
+"Europe_Non_EU",1990,"trn_pass_other",204665.020712634
+"Europe_Non_EU",1990,"trn_pass_road_LDV_4W_other",155437.75909195
+"Europe_Non_EU",1990,"trn_pass_road_LDV_4W_urban",155437.75909195
+"Europe_Non_EU",1990,"trn_pass_road_LDV_urban",168861.04783285
+"Europe_Non_EU",1990,"trn_pass_road_other",192552.189360312
+"Europe_Non_EU",1990,"trn_pass_road_urban",205975.478101213
+"Europe_Non_EU",1990,"trn_pass_urban",268014.349451353
+"Europe_Non_EU",2005,"trn_pass_other",254382.674631389
+"Europe_Non_EU",2005,"trn_pass_road_LDV_4W_other",190039.65298189
+"Europe_Non_EU",2005,"trn_pass_road_LDV_4W_urban",190039.65298189
+"Europe_Non_EU",2005,"trn_pass_road_LDV_urban",203741.328445323
+"Europe_Non_EU",2005,"trn_pass_road_other",231601.333536157
+"Europe_Non_EU",2005,"trn_pass_road_urban",245303.00899959
+"Europe_Non_EU",2005,"trn_pass_urban",312493.33641136
+"Europe_Non_EU",2010,"trn_pass_other",308425.621495915
+"Europe_Non_EU",2010,"trn_pass_road_LDV_4W_other",236193.902553517
+"Europe_Non_EU",2010,"trn_pass_road_LDV_4W_urban",236193.902553517
+"Europe_Non_EU",2010,"trn_pass_road_LDV_urban",253498.293594838
+"Europe_Non_EU",2010,"trn_pass_road_other",287705.191707438
+"Europe_Non_EU",2010,"trn_pass_road_urban",305009.582748759
+"Europe_Non_EU",2010,"trn_pass_urban",373699.822621266
+"Europe_Non_EU",2015,"trn_pass_other",457203.771367994
+"Europe_Non_EU",2015,"trn_pass_road_LDV_4W_other",343436.232697746
+"Europe_Non_EU",2015,"trn_pass_road_LDV_4W_urban",343436.232697746
+"Europe_Non_EU",2015,"trn_pass_road_LDV_urban",365238.492293228
+"Europe_Non_EU",2015,"trn_pass_road_other",409339.86163281
+"Europe_Non_EU",2015,"trn_pass_road_urban",431142.121228292
+"Europe_Non_EU",2015,"trn_pass_urban",503917.378769974
+"Europe_Non_EU",2021,"trn_pass_other",564567.155515053
+"Europe_Non_EU",2021,"trn_pass_road_LDV_4W_other",440242.145443706
+"Europe_Non_EU",2021,"trn_pass_road_LDV_4W_urban",440242.145443706
+"Europe_Non_EU",2021,"trn_pass_road_LDV_urban",467220.03149175
+"Europe_Non_EU",2021,"trn_pass_road_other",520010.604494871
+"Europe_Non_EU",2021,"trn_pass_road_urban",546988.490542914
+"Europe_Non_EU",2021,"trn_pass_urban",624635.642840918
+"European Free Trade Association",1975,"trn_pass_other",74261.8396974227
+"European Free Trade Association",1975,"trn_pass_road_LDV_4W_other",48847.7241362663
+"European Free Trade Association",1975,"trn_pass_road_LDV_4W_urban",48847.7241362663
+"European Free Trade Association",1975,"trn_pass_road_LDV_urban",50824.8892818451
+"European Free Trade Association",1975,"trn_pass_road_other",56482.8573662197
+"European Free Trade Association",1975,"trn_pass_road_urban",58460.0225117984
+"European Free Trade Association",1975,"trn_pass_urban",72839.0354841987
+"European Free Trade Association",1990,"trn_pass_other",113659.67419684
+"European Free Trade Association",1990,"trn_pass_road_LDV_4W_other",75546.3558092687
+"European Free Trade Association",1990,"trn_pass_road_LDV_4W_urban",75546.3558092687
+"European Free Trade Association",1990,"trn_pass_road_LDV_urban",78604.1596538179
+"European Free Trade Association",1990,"trn_pass_road_other",87354.5625755652
+"European Free Trade Association",1990,"trn_pass_road_urban",90412.3664201144
+"European Free Trade Association",1990,"trn_pass_urban",107971.550272448
+"European Free Trade Association",2005,"trn_pass_other",133072.490332745
+"European Free Trade Association",2005,"trn_pass_road_LDV_4W_other",89447.4714638732
+"European Free Trade Association",2005,"trn_pass_road_LDV_4W_urban",89447.4714638732
+"European Free Trade Association",2005,"trn_pass_road_LDV_urban",93067.8199020814
+"European Free Trade Association",2005,"trn_pass_road_other",103816.955869028
+"European Free Trade Association",2005,"trn_pass_road_urban",107437.304307236
+"European Free Trade Association",2005,"trn_pass_urban",126698.007055697
+"European Free Trade Association",2010,"trn_pass_other",145003.093263486
+"European Free Trade Association",2010,"trn_pass_road_LDV_4W_other",96186.4124472287
+"European Free Trade Association",2010,"trn_pass_road_LDV_4W_urban",96186.4124472287
+"European Free Trade Association",2010,"trn_pass_road_LDV_urban",100083.489849307
+"European Free Trade Association",2010,"trn_pass_road_other",112988.432751971
+"European Free Trade Association",2010,"trn_pass_road_urban",116885.51015405
+"European Free Trade Association",2010,"trn_pass_urban",136042.268021666
+"European Free Trade Association",2015,"trn_pass_other",155855.445975491
+"European Free Trade Association",2015,"trn_pass_road_LDV_4W_other",97378.7609925989
+"European Free Trade Association",2015,"trn_pass_road_LDV_4W_urban",97378.7609925989
+"European Free Trade Association",2015,"trn_pass_road_LDV_urban",101327.957250016
+"European Free Trade Association",2015,"trn_pass_road_other",117322.269967059
+"European Free Trade Association",2015,"trn_pass_road_urban",121271.466224476
+"European Free Trade Association",2015,"trn_pass_urban",143195.263524355
+"European Free Trade Association",2021,"trn_pass_other",146932.250686836
+"European Free Trade Association",2021,"trn_pass_road_LDV_4W_other",94532.7016749175
+"European Free Trade Association",2021,"trn_pass_road_LDV_4W_urban",94532.7016749175
+"European Free Trade Association",2021,"trn_pass_road_LDV_urban",98372.084883335
+"European Free Trade Association",2021,"trn_pass_road_other",113457.332977442
+"European Free Trade Association",2021,"trn_pass_road_urban",117296.71618586
+"European Free Trade Association",2021,"trn_pass_urban",143912.188915382
+"India",1975,"trn_pass_other",153887.278009818
+"India",1975,"trn_pass_road_LDV_4W_other",13288.0157675311
+"India",1975,"trn_pass_road_LDV_4W_urban",13288.0157675311
+"India",1975,"trn_pass_road_LDV_urban",101925.699378965
+"India",1975,"trn_pass_road_other",78079.9833072672
+"India",1975,"trn_pass_road_urban",166717.666918701
+"India",1975,"trn_pass_urban",840983.650341769
+"India",1990,"trn_pass_other",340330.666924054
+"India",1990,"trn_pass_road_LDV_4W_other",29718.3078966224
+"India",1990,"trn_pass_road_LDV_4W_urban",29718.3078966224
+"India",1990,"trn_pass_road_LDV_urban",227953.695172008
+"India",1990,"trn_pass_road_other",174623.811921163
+"India",1990,"trn_pass_road_urban",372859.199196548
+"India",1990,"trn_pass_urban",1371005.95398283
+"India",2005,"trn_pass_other",765206.096938216
+"India",2005,"trn_pass_road_LDV_4W_other",63831.0268734655
+"India",2005,"trn_pass_road_LDV_4W_urban",63831.0268734655
+"India",2005,"trn_pass_road_LDV_urban",486195.831185651
+"India",2005,"trn_pass_road_other",397019.33590003
+"India",2005,"trn_pass_road_urban",819384.140212215
+"India",2005,"trn_pass_urban",2284173.29522939
+"India",2010,"trn_pass_other",1231339.19395693
+"India",2010,"trn_pass_road_LDV_4W_other",109734.644682043
+"India",2010,"trn_pass_road_LDV_4W_urban",109734.644682043
+"India",2010,"trn_pass_road_LDV_urban",847775.310476692
+"India",2010,"trn_pass_road_other",679855.683475871
+"India",2010,"trn_pass_road_urban",1417896.34927052
+"India",2010,"trn_pass_urban",3135767.41685868
+"India",2015,"trn_pass_other",1639713.18237959
+"India",2015,"trn_pass_road_LDV_4W_other",151096.370966913
+"India",2015,"trn_pass_road_LDV_4W_urban",151096.370966913
+"India",2015,"trn_pass_road_LDV_urban",1182047.15683175
+"India",2015,"trn_pass_road_other",922349.626925108
+"India",2015,"trn_pass_road_urban",1953300.41278994
+"India",2015,"trn_pass_urban",3907055.69925488
+"India",2021,"trn_pass_other",1959544.665351
+"India",2021,"trn_pass_road_LDV_4W_other",181818.170247979
+"India",2021,"trn_pass_road_LDV_4W_urban",181818.170247979
+"India",2021,"trn_pass_road_LDV_urban",1440144.26917917
+"India",2021,"trn_pass_road_other",1131846.65694147
+"India",2021,"trn_pass_road_urban",2390172.75587266
+"India",2021,"trn_pass_urban",4543635.2933609
+"Indonesia",1975,"trn_pass_other",62542.6177869488
+"Indonesia",1975,"trn_pass_road_LDV_4W_other",16961.5399365145
+"Indonesia",1975,"trn_pass_road_LDV_4W_urban",16961.5399365145
+"Indonesia",1975,"trn_pass_road_LDV_urban",78016.5425369206
+"Indonesia",1975,"trn_pass_road_other",61097.4287326756
+"Indonesia",1975,"trn_pass_road_urban",122152.431333082
+"Indonesia",1975,"trn_pass_urban",193209.932823134
+"Indonesia",1990,"trn_pass_other",167082.015225445
+"Indonesia",1990,"trn_pass_road_LDV_4W_other",45334.3110809565
+"Indonesia",1990,"trn_pass_road_LDV_4W_urban",45334.3110809565
+"Indonesia",1990,"trn_pass_road_LDV_urban",208520.267266624
+"Indonesia",1990,"trn_pass_road_other",163299.157142584
+"Indonesia",1990,"trn_pass_road_urban",326485.113328251
+"Indonesia",1990,"trn_pass_urban",426731.130647114
+"Indonesia",2005,"trn_pass_other",362671.311592951
+"Indonesia",2005,"trn_pass_road_LDV_4W_other",98253.0347268643
+"Indonesia",2005,"trn_pass_road_LDV_4W_urban",98253.0347268643
+"Indonesia",2005,"trn_pass_road_LDV_urban",451779.401172083
+"Indonesia",2005,"trn_pass_road_other",354029.901148421
+"Indonesia",2005,"trn_pass_road_urban",707556.26759364
+"Indonesia",2005,"trn_pass_urban",836502.932867888
+"Indonesia",2010,"trn_pass_other",469838.679309708
+"Indonesia",2010,"trn_pass_road_LDV_4W_other",128754.295460747
+"Indonesia",2010,"trn_pass_road_LDV_4W_urban",128754.295460747
+"Indonesia",2010,"trn_pass_road_LDV_urban",601330.571172009
+"Indonesia",2010,"trn_pass_road_other",458321.892724121
+"Indonesia",2010,"trn_pass_road_urban",930898.168435384
+"Indonesia",2010,"trn_pass_urban",1070020.89208422
+"Indonesia",2015,"trn_pass_other",703972.530902516
+"Indonesia",2015,"trn_pass_road_LDV_4W_other",195544.827831738
+"Indonesia",2015,"trn_pass_road_LDV_4W_urban",195544.827831738
+"Indonesia",2015,"trn_pass_road_LDV_urban",925017.151912593
+"Indonesia",2015,"trn_pass_road_other",685785.300107176
+"Indonesia",2015,"trn_pass_road_urban",1415257.62418803
+"Indonesia",2015,"trn_pass_urban",1568494.19289314
+"Indonesia",2021,"trn_pass_other",834650.135286691
+"Indonesia",2021,"trn_pass_road_LDV_4W_other",236346.88630197
+"Indonesia",2021,"trn_pass_road_LDV_4W_urban",236346.88630197
+"Indonesia",2021,"trn_pass_road_LDV_urban",1140851.92165877
+"Indonesia",2021,"trn_pass_road_other",815001.841613502
+"Indonesia",2021,"trn_pass_road_urban",1719506.87697031
+"Indonesia",2021,"trn_pass_urban",1883417.91349486
+"Japan",1975,"trn_pass_other",380397.126811265
+"Japan",1975,"trn_pass_road_LDV_4W_other",189336.67696964
+"Japan",1975,"trn_pass_road_LDV_4W_urban",189336.67696964
+"Japan",1975,"trn_pass_road_LDV_urban",211872.758749671
+"Japan",1975,"trn_pass_road_other",210160.963837813
+"Japan",1975,"trn_pass_road_urban",232697.045617844
+"Japan",1975,"trn_pass_urban",381599.506584744
+"Japan",1990,"trn_pass_other",625302.208573012
+"Japan",1990,"trn_pass_road_LDV_4W_other",351404.760265206
+"Japan",1990,"trn_pass_road_LDV_4W_urban",351404.760265206
+"Japan",1990,"trn_pass_road_LDV_urban",393231.214155191
+"Japan",1990,"trn_pass_road_other",390054.203178037
+"Japan",1990,"trn_pass_road_urban",431880.657068022
+"Japan",1990,"trn_pass_urban",614079.756543662
+"Japan",2005,"trn_pass_other",746020.872822089
+"Japan",2005,"trn_pass_road_LDV_4W_other",424445.954678079
+"Japan",2005,"trn_pass_road_LDV_4W_urban",424445.954678079
+"Japan",2005,"trn_pass_road_LDV_urban",474966.18903758
+"Japan",2005,"trn_pass_road_other",471895.30530718
+"Japan",2005,"trn_pass_road_urban",522415.539666681
+"Japan",2005,"trn_pass_urban",716734.474406519
+"Japan",2010,"trn_pass_other",711018.052373011
+"Japan",2010,"trn_pass_road_LDV_4W_other",401222.264039742
+"Japan",2010,"trn_pass_road_LDV_4W_urban",401222.264039742
+"Japan",2010,"trn_pass_road_LDV_urban",448980.855342691
+"Japan",2010,"trn_pass_road_other",444641.387823796
+"Japan",2010,"trn_pass_road_urban",492399.979126745
+"Japan",2010,"trn_pass_urban",689496.764493752
+"Japan",2015,"trn_pass_other",687908.135229935
+"Japan",2015,"trn_pass_road_LDV_4W_other",382474.640056617
+"Japan",2015,"trn_pass_road_LDV_4W_urban",382474.640056617
+"Japan",2015,"trn_pass_road_LDV_urban",428004.27890947
+"Japan",2015,"trn_pass_road_other",422107.918708053
+"Japan",2015,"trn_pass_road_urban",467637.557560906
+"Japan",2015,"trn_pass_urban",657961.047050922
+"Japan",2021,"trn_pass_other",623848.670609893
+"Japan",2021,"trn_pass_road_LDV_4W_other",349406.687230367
+"Japan",2021,"trn_pass_road_LDV_4W_urban",349406.687230367
+"Japan",2021,"trn_pass_road_LDV_urban",391002.544224886
+"Japan",2021,"trn_pass_road_other",383577.634743073
+"Japan",2021,"trn_pass_road_urban",425173.491737592
+"Japan",2021,"trn_pass_urban",610597.454380431
+"Mexico",1975,"trn_pass_other",135036.758569345
+"Mexico",1975,"trn_pass_road_LDV_4W_other",78896.5556302553
+"Mexico",1975,"trn_pass_road_LDV_4W_urban",78896.5556302553
+"Mexico",1975,"trn_pass_road_LDV_urban",94027.2638592748
+"Mexico",1975,"trn_pass_road_other",131324.868266259
+"Mexico",1975,"trn_pass_road_urban",146455.576495279
+"Mexico",1975,"trn_pass_urban",222532.13698325
+"Mexico",1990,"trn_pass_other",262031.96869344
+"Mexico",1990,"trn_pass_road_LDV_4W_other",152575.419507675
+"Mexico",1990,"trn_pass_road_LDV_4W_urban",152575.419507675
+"Mexico",1990,"trn_pass_road_LDV_urban",181836.120059685
+"Mexico",1990,"trn_pass_road_other",253964.709573701
+"Mexico",1990,"trn_pass_road_urban",283225.410125711
+"Mexico",1990,"trn_pass_urban",389517.731168468
+"Mexico",2005,"trn_pass_other",408530.625539549
+"Mexico",2005,"trn_pass_road_LDV_4W_other",237618.809544752
+"Mexico",2005,"trn_pass_road_LDV_4W_urban",237618.809544752
+"Mexico",2005,"trn_pass_road_LDV_urban",283153.981730393
+"Mexico",2005,"trn_pass_road_other",395489.327702923
+"Mexico",2005,"trn_pass_road_urban",441024.499888563
+"Mexico",2005,"trn_pass_urban",578379.901089162
+"Mexico",2010,"trn_pass_other",482572.224403384
+"Mexico",2010,"trn_pass_road_LDV_4W_other",286381.110238366
+"Mexico",2010,"trn_pass_road_LDV_4W_urban",286381.110238366
+"Mexico",2010,"trn_pass_road_LDV_urban",341282.307043821
+"Mexico",2010,"trn_pass_road_other",469711.980935045
+"Mexico",2010,"trn_pass_road_urban",524613.1777405
+"Mexico",2010,"trn_pass_urban",671203.889275928
+"Mexico",2015,"trn_pass_other",496822.5209806
+"Mexico",2015,"trn_pass_road_LDV_4W_other",297549.486557724
+"Mexico",2015,"trn_pass_road_LDV_4W_urban",297549.486557724
+"Mexico",2015,"trn_pass_road_LDV_urban",354572.767323498
+"Mexico",2015,"trn_pass_road_other",480779.493155862
+"Mexico",2015,"trn_pass_road_urban",537802.773921637
+"Mexico",2015,"trn_pass_urban",694120.988252018
+"Mexico",2021,"trn_pass_other",366485.976071642
+"Mexico",2021,"trn_pass_road_LDV_4W_other",221029.036013527
+"Mexico",2021,"trn_pass_road_LDV_4W_urban",221029.036013527
+"Mexico",2021,"trn_pass_road_LDV_urban",263323.628757567
+"Mexico",2021,"trn_pass_road_other",350850.247294926
+"Mexico",2021,"trn_pass_road_urban",393144.840038966
+"Mexico",2021,"trn_pass_urban",558688.765867485
+"Middle East",1975,"trn_pass_other",169972.204012724
+"Middle East",1975,"trn_pass_road_LDV_4W_other",107791.620352806
+"Middle East",1975,"trn_pass_road_LDV_4W_urban",107791.620352806
+"Middle East",1975,"trn_pass_road_LDV_urban",123974.656047973
+"Middle East",1975,"trn_pass_road_other",169759.039019402
+"Middle East",1975,"trn_pass_road_urban",185942.074714568
+"Middle East",1975,"trn_pass_urban",228524.074714568
+"Middle East",1990,"trn_pass_other",654217.965617495
+"Middle East",1990,"trn_pass_road_LDV_4W_other",415173.058223122
+"Middle East",1990,"trn_pass_road_LDV_4W_urban",415173.058223122
+"Middle East",1990,"trn_pass_road_LDV_urban",477504.217354577
+"Middle East",1990,"trn_pass_road_other",653848.374024615
+"Middle East",1990,"trn_pass_road_urban",716179.53315607
+"Middle East",1990,"trn_pass_urban",788482.53315607
+"Middle East",2005,"trn_pass_other",1243845.58184624
+"Middle East",2005,"trn_pass_road_LDV_4W_other",788310.867544791
+"Middle East",2005,"trn_pass_road_LDV_4W_urban",788310.867544791
+"Middle East",2005,"trn_pass_road_LDV_urban",906085.777584415
+"Middle East",2005,"trn_pass_road_other",1239288.38521698
+"Middle East",2005,"trn_pass_road_urban",1357063.2952566
+"Middle East",2005,"trn_pass_urban",1464622.26379405
+"Middle East",2010,"trn_pass_other",1596681.95669221
+"Middle East",2010,"trn_pass_road_LDV_4W_other",1036243.35647864
+"Middle East",2010,"trn_pass_road_LDV_4W_urban",1036243.35647864
+"Middle East",2010,"trn_pass_road_LDV_urban",1184775.46192201
+"Middle East",2010,"trn_pass_road_other",1584213.8898349
+"Middle East",2010,"trn_pass_road_urban",1732745.99527828
+"Middle East",2010,"trn_pass_urban",1863571.27407503
+"Middle East",2015,"trn_pass_other",1901437.55146386
+"Middle East",2015,"trn_pass_road_LDV_4W_other",1240877.87297867
+"Middle East",2015,"trn_pass_road_LDV_4W_urban",1240877.87297867
+"Middle East",2015,"trn_pass_road_LDV_urban",1420647.99332239
+"Middle East",2015,"trn_pass_road_other",1878917.14184015
+"Middle East",2015,"trn_pass_road_urban",2058687.26218387
+"Middle East",2015,"trn_pass_urban",2212915.09450209
+"Middle East",2021,"trn_pass_other",1884115.94966423
+"Middle East",2021,"trn_pass_road_LDV_4W_other",1241023.39689555
+"Middle East",2021,"trn_pass_road_LDV_4W_urban",1241023.39689555
+"Middle East",2021,"trn_pass_road_LDV_urban",1424120.01527938
+"Middle East",2021,"trn_pass_road_other",1861099.60408423
+"Middle East",2021,"trn_pass_road_urban",2044196.22246805
+"Middle East",2021,"trn_pass_urban",2212673.17229962
+"Pakistan",1975,"trn_pass_other",22366.3071502248
+"Pakistan",1975,"trn_pass_road_LDV_4W_other",5954.86553369788
+"Pakistan",1975,"trn_pass_road_LDV_4W_urban",5954.86553369788
+"Pakistan",1975,"trn_pass_road_LDV_urban",27390.133238414
+"Pakistan",1975,"trn_pass_road_other",21450.0851286189
+"Pakistan",1975,"trn_pass_road_urban",42885.352833335
+"Pakistan",1975,"trn_pass_urban",79784.251969265
+"Pakistan",1990,"trn_pass_other",78268.3850976185
+"Pakistan",1990,"trn_pass_road_LDV_4W_other",21143.1711588848
+"Pakistan",1990,"trn_pass_road_LDV_4W_urban",21143.1711588848
+"Pakistan",1990,"trn_pass_road_LDV_urban",97250.236049947
+"Pakistan",1990,"trn_pass_road_other",76159.8951799026
+"Pakistan",1990,"trn_pass_road_urban",152266.960070965
+"Pakistan",1990,"trn_pass_urban",215440.157701859
+"Pakistan",2005,"trn_pass_other",187152.882015965
+"Pakistan",2005,"trn_pass_road_LDV_4W_other",45628.9552531449
+"Pakistan",2005,"trn_pass_road_LDV_4W_urban",45628.9552531449
+"Pakistan",2005,"trn_pass_road_LDV_urban",184503.964248504
+"Pakistan",2005,"trn_pass_road_other",183599.61093376
+"Pakistan",2005,"trn_pass_road_urban",322474.619929119
+"Pakistan",2005,"trn_pass_urban",418105.519545719
+"Pakistan",2010,"trn_pass_other",292015.244615872
+"Pakistan",2010,"trn_pass_road_LDV_4W_other",65271.2769206358
+"Pakistan",2010,"trn_pass_road_LDV_4W_urban",65271.2769206358
+"Pakistan",2010,"trn_pass_road_LDV_urban",228336.029660241
+"Pakistan",2010,"trn_pass_road_other",288278.84111574
+"Pakistan",2010,"trn_pass_road_urban",451343.593855345
+"Pakistan",2010,"trn_pass_urban",557876.782694684
+"Pakistan",2015,"trn_pass_other",313405.311631547
+"Pakistan",2015,"trn_pass_road_LDV_4W_other",78808.8653714446
+"Pakistan",2015,"trn_pass_road_LDV_4W_urban",78808.8653714446
+"Pakistan",2015,"trn_pass_road_LDV_urban",327748.384748011
+"Pakistan",2015,"trn_pass_road_other",308108.673815054
+"Pakistan",2015,"trn_pass_road_urban",557048.193191621
+"Pakistan",2015,"trn_pass_urban",673933.812707831
+"Pakistan",2021,"trn_pass_other",379666.615392377
+"Pakistan",2021,"trn_pass_road_LDV_4W_other",100014.048386457
+"Pakistan",2021,"trn_pass_road_LDV_4W_urban",100014.048386457
+"Pakistan",2021,"trn_pass_road_LDV_urban",440778.159426368
+"Pakistan",2021,"trn_pass_road_other",373133.720678874
+"Pakistan",2021,"trn_pass_road_urban",713897.831718785
+"Pakistan",2021,"trn_pass_urban",843115.460126645
+"Russia",1975,"trn_pass_other",594767.274092218
+"Russia",1975,"trn_pass_road_LDV_4W_other",255836.926713996
+"Russia",1975,"trn_pass_road_LDV_4W_urban",255836.926713996
+"Russia",1975,"trn_pass_road_LDV_urban",311923.566586892
+"Russia",1975,"trn_pass_road_other",364203.402420498
+"Russia",1975,"trn_pass_road_urban",420290.042293394
+"Russia",1975,"trn_pass_urban",620455.295483425
+"Russia",1990,"trn_pass_other",862028.805720304
+"Russia",1990,"trn_pass_road_LDV_4W_other",407191.445165085
+"Russia",1990,"trn_pass_road_LDV_4W_urban",407191.445165085
+"Russia",1990,"trn_pass_road_LDV_urban",496331.970922935
+"Russia",1990,"trn_pass_road_other",585728.270431383
+"Russia",1990,"trn_pass_road_urban",674868.796189234
+"Russia",1990,"trn_pass_urban",951527.201587385
+"Russia",2005,"trn_pass_other",580296.478592229
+"Russia",2005,"trn_pass_road_LDV_4W_other",281995.458609108
+"Russia",2005,"trn_pass_road_LDV_4W_urban",281995.458609108
+"Russia",2005,"trn_pass_road_LDV_urban",344044.509010209
+"Russia",2005,"trn_pass_road_other",390594.744130701
+"Russia",2005,"trn_pass_road_urban",452643.794531801
+"Russia",2005,"trn_pass_urban",705935.084206465
+"Russia",2010,"trn_pass_other",698684.841243873
+"Russia",2010,"trn_pass_road_LDV_4W_other",357559.359809873
+"Russia",2010,"trn_pass_road_LDV_4W_urban",357559.359809873
+"Russia",2010,"trn_pass_road_LDV_urban",436211.561744516
+"Russia",2010,"trn_pass_road_other",491347.439904845
+"Russia",2010,"trn_pass_road_urban",569999.641839488
+"Russia",2010,"trn_pass_urban",828211.562946183
+"Russia",2015,"trn_pass_other",743694.189263346
+"Russia",2015,"trn_pass_road_LDV_4W_other",398399.949048335
+"Russia",2015,"trn_pass_road_LDV_4W_urban",398399.949048335
+"Russia",2015,"trn_pass_road_LDV_urban",486056.087123713
+"Russia",2015,"trn_pass_road_other",540960.158757176
+"Russia",2015,"trn_pass_road_urban",628616.296832554
+"Russia",2015,"trn_pass_urban",893104.346786766
+"Russia",2021,"trn_pass_other",848047.123180851
+"Russia",2021,"trn_pass_road_LDV_4W_other",460998.958487905
+"Russia",2021,"trn_pass_road_LDV_4W_urban",460998.958487905
+"Russia",2021,"trn_pass_road_LDV_urban",562206.921567425
+"Russia",2021,"trn_pass_road_other",627832.653075937
+"Russia",2021,"trn_pass_road_urban",729040.616155457
+"Russia",2021,"trn_pass_urban",993810.961964972
+"South Africa",1975,"trn_pass_other",121081.038664272
+"South Africa",1975,"trn_pass_road_LDV_4W_other",40523.2457866288
+"South Africa",1975,"trn_pass_road_LDV_4W_urban",40523.2457866288
+"South Africa",1975,"trn_pass_road_LDV_urban",46073.1687030622
+"South Africa",1975,"trn_pass_road_other",104483.733723936
+"South Africa",1975,"trn_pass_road_urban",110033.656640369
+"South Africa",1975,"trn_pass_urban",151445.034386114
+"South Africa",1990,"trn_pass_other",164993.109634864
+"South Africa",1990,"trn_pass_road_LDV_4W_other",55562.691429063
+"South Africa",1990,"trn_pass_road_LDV_4W_urban",55562.691429063
+"South Africa",1990,"trn_pass_road_LDV_urban",63172.3043073816
+"South Africa",1990,"trn_pass_road_other",143260.937003055
+"South Africa",1990,"trn_pass_road_urban",150870.549881374
+"South Africa",1990,"trn_pass_urban",210988.403107452
+"South Africa",2005,"trn_pass_other",236955.786052518
+"South Africa",2005,"trn_pass_road_LDV_4W_other",78777.9842298017
+"South Africa",2005,"trn_pass_road_LDV_4W_urban",78777.9842298017
+"South Africa",2005,"trn_pass_road_LDV_urban",89567.0386258581
+"South Africa",2005,"trn_pass_road_other",203118.365039464
+"South Africa",2005,"trn_pass_road_urban",213907.41943552
+"South Africa",2005,"trn_pass_urban",290105.915108243
+"South Africa",2010,"trn_pass_other",255675.947069053
+"South Africa",2010,"trn_pass_road_LDV_4W_other",89607.0830506744
+"South Africa",2010,"trn_pass_road_LDV_4W_urban",89607.0830506744
+"South Africa",2010,"trn_pass_road_LDV_urban",102111.37601425
+"South Africa",2010,"trn_pass_road_other",228448.947858883
+"South Africa",2010,"trn_pass_road_urban",240953.240822459
+"South Africa",2010,"trn_pass_urban",312170.032858419
+"South Africa",2015,"trn_pass_other",292129.953898794
+"South Africa",2015,"trn_pass_road_LDV_4W_other",105135.402670547
+"South Africa",2015,"trn_pass_road_LDV_4W_urban",105135.402670547
+"South Africa",2015,"trn_pass_road_LDV_urban",120041.555709105
+"South Africa",2015,"trn_pass_road_other",264362.092524948
+"South Africa",2015,"trn_pass_road_urban",279268.245563506
+"South Africa",2015,"trn_pass_urban",354630.77047499
+"South Africa",2021,"trn_pass_other",253486.855468927
+"South Africa",2021,"trn_pass_road_LDV_4W_other",94474.9052787416
+"South Africa",2021,"trn_pass_road_LDV_4W_urban",94474.9052787416
+"South Africa",2021,"trn_pass_road_LDV_urban",108176.847579741
+"South Africa",2021,"trn_pass_road_other",234133.166336156
+"South Africa",2021,"trn_pass_road_urban",247835.108637155
+"South Africa",2021,"trn_pass_urban",322401.301054647
+"South America_Northern",1975,"trn_pass_other",61594.5190879214
+"South America_Northern",1975,"trn_pass_road_LDV_4W_other",36575.2240352381
+"South America_Northern",1975,"trn_pass_road_LDV_4W_urban",36575.2240352381
+"South America_Northern",1975,"trn_pass_road_LDV_urban",43589.5722215582
+"South America_Northern",1975,"trn_pass_road_other",60880.2165616745
+"South America_Northern",1975,"trn_pass_road_urban",67894.5647479946
+"South America_Northern",1975,"trn_pass_urban",86414.7868731691
+"South America_Northern",1990,"trn_pass_other",94567.7261698028
+"South America_Northern",1990,"trn_pass_road_LDV_4W_other",55342.5631525168
+"South America_Northern",1990,"trn_pass_road_LDV_4W_urban",55342.5631525168
+"South America_Northern",1990,"trn_pass_road_LDV_urban",65956.0885799458
+"South America_Northern",1990,"trn_pass_road_other",92118.7396069012
+"South America_Northern",1990,"trn_pass_road_urban",102732.26503433
+"South America_Northern",1990,"trn_pass_urban",130199.444005609
+"South America_Northern",2005,"trn_pass_other",141083.0805201
+"South America_Northern",2005,"trn_pass_road_LDV_4W_other",82377.1640191114
+"South America_Northern",2005,"trn_pass_road_LDV_4W_urban",82377.1640191114
+"South America_Northern",2005,"trn_pass_road_LDV_urban",97940.7142481507
+"South America_Northern",2005,"trn_pass_road_other",136906.239364432
+"South America_Northern",2005,"trn_pass_road_urban",152469.789593471
+"South America_Northern",2005,"trn_pass_urban",189100.707065615
+"South America_Northern",2010,"trn_pass_other",167048.038183177
+"South America_Northern",2010,"trn_pass_road_LDV_4W_other",99227.5733894995
+"South America_Northern",2010,"trn_pass_road_LDV_4W_urban",99227.5733894995
+"South America_Northern",2010,"trn_pass_road_LDV_urban",118239.098734157
+"South America_Northern",2010,"trn_pass_road_other",162739.953447104
+"South America_Northern",2010,"trn_pass_road_urban",181751.478791761
+"South America_Northern",2010,"trn_pass_urban",221130.852204052
+"South America_Northern",2015,"trn_pass_other",159781.401255529
+"South America_Northern",2015,"trn_pass_road_LDV_4W_other",96317.9465030485
+"South America_Northern",2015,"trn_pass_road_LDV_4W_urban",96317.9465030485
+"South America_Northern",2015,"trn_pass_road_LDV_urban",114730.57566733
+"South America_Northern",2015,"trn_pass_road_other",155592.018125109
+"South America_Northern",2015,"trn_pass_road_urban",174004.647289391
+"South America_Northern",2015,"trn_pass_urban",215406.356672248
+"South America_Northern",2021,"trn_pass_other",47552.801470157
+"South America_Northern",2021,"trn_pass_road_LDV_4W_other",28584.4688148997
+"South America_Northern",2021,"trn_pass_road_LDV_4W_urban",28584.4688148997
+"South America_Northern",2021,"trn_pass_road_LDV_urban",34039.1485846277
+"South America_Northern",2021,"trn_pass_road_other",45361.7944456727
+"South America_Northern",2021,"trn_pass_road_urban",50816.4742154006
+"South America_Northern",2021,"trn_pass_urban",89346.1063295887
+"South America_Southern",1975,"trn_pass_other",51593.7469672626
+"South America_Southern",1975,"trn_pass_road_LDV_4W_other",29616.380636933
+"South America_Southern",1975,"trn_pass_road_LDV_4W_urban",29616.380636933
+"South America_Southern",1975,"trn_pass_road_LDV_urban",35296.1766982429
+"South America_Southern",1975,"trn_pass_road_other",49296.9927039257
+"South America_Southern",1975,"trn_pass_road_urban",54976.7887652356
+"South America_Southern",1975,"trn_pass_urban",111762.821467265
+"South America_Southern",1990,"trn_pass_other",83946.6633336619
+"South America_Southern",1990,"trn_pass_road_LDV_4W_other",48267.4489696913
+"South America_Southern",1990,"trn_pass_road_LDV_4W_urban",48267.4489696913
+"South America_Southern",1990,"trn_pass_road_LDV_urban",57510.9246477699
+"South America_Southern",1990,"trn_pass_road_other",80330.1454024993
+"South America_Southern",1990,"trn_pass_road_urban",89573.6210805778
+"South America_Southern",1990,"trn_pass_urban",167585.72683049
+"South America_Southern",2005,"trn_pass_other",140048.140425976
+"South America_Southern",2005,"trn_pass_road_LDV_4W_other",80390.0143543272
+"South America_Southern",2005,"trn_pass_road_LDV_4W_urban",80390.0143543272
+"South America_Southern",2005,"trn_pass_road_LDV_urban",95478.2663676345
+"South America_Southern",2005,"trn_pass_road_other",133513.230550808
+"South America_Southern",2005,"trn_pass_road_urban",148601.482564115
+"South America_Southern",2005,"trn_pass_urban",247335.417795724
+"South America_Southern",2010,"trn_pass_other",211932.847011979
+"South America_Southern",2010,"trn_pass_road_LDV_4W_other",121505.268626684
+"South America_Southern",2010,"trn_pass_road_LDV_4W_urban",121505.268626684
+"South America_Southern",2010,"trn_pass_road_LDV_urban",143068.653239753
+"South America_Southern",2010,"trn_pass_road_other",197788.94388
+"South America_Southern",2010,"trn_pass_road_urban",219352.328493069
+"South America_Southern",2010,"trn_pass_urban",328575.379589221
+"South America_Southern",2015,"trn_pass_other",274784.320469372
+"South America_Southern",2015,"trn_pass_road_LDV_4W_other",163474.820569349
+"South America_Southern",2015,"trn_pass_road_LDV_4W_urban",163474.820569349
+"South America_Southern",2015,"trn_pass_road_LDV_urban",191893.281459971
+"South America_Southern",2015,"trn_pass_road_other",261728.481871531
+"South America_Southern",2015,"trn_pass_road_urban",290146.942762153
+"South America_Southern",2015,"trn_pass_urban",402173.108069786
+"South America_Southern",2021,"trn_pass_other",314824.237427693
+"South America_Southern",2021,"trn_pass_road_LDV_4W_other",192967.185229481
+"South America_Southern",2021,"trn_pass_road_LDV_4W_urban",192967.185229481
+"South America_Southern",2021,"trn_pass_road_LDV_urban",227138.166757364
+"South America_Southern",2021,"trn_pass_road_other",304142.090917342
+"South America_Southern",2021,"trn_pass_road_urban",338313.072445225
+"South America_Southern",2021,"trn_pass_urban",460507.893638257
+"South Asia",1975,"trn_pass_other",17901.6857443285
+"South Asia",1975,"trn_pass_road_LDV_4W_other",4826.3109520427
+"South Asia",1975,"trn_pass_road_LDV_4W_urban",4826.3109520427
+"South Asia",1975,"trn_pass_road_LDV_urban",22199.1603936067
+"South Asia",1975,"trn_pass_road_other",17384.9740217705
+"South Asia",1975,"trn_pass_road_urban",34757.8234633345
+"South Asia",1975,"trn_pass_urban",96267.2649499638
+"South Asia",1990,"trn_pass_other",36091.5237578266
+"South Asia",1990,"trn_pass_road_LDV_4W_other",9732.35590739059
+"South Asia",1990,"trn_pass_road_LDV_4W_urban",9732.35590739059
+"South Asia",1990,"trn_pass_road_LDV_urban",44764.9684922489
+"South Asia",1990,"trn_pass_road_other",35056.9655835527
+"South Asia",1990,"trn_pass_road_urban",70089.578168411
+"South Asia",1990,"trn_pass_urban",153509.221150711
+"South Asia",2005,"trn_pass_other",80757.718169627
+"South Asia",2005,"trn_pass_road_LDV_4W_other",21253.0685939088
+"South Asia",2005,"trn_pass_road_LDV_4W_urban",21253.0685939088
+"South Asia",2005,"trn_pass_road_LDV_urban",95409.3446793736
+"South Asia",2005,"trn_pass_road_other",78335.1569846703
+"South Asia",2005,"trn_pass_road_urban",152491.433070135
+"South Asia",2005,"trn_pass_urban",267004.039642295
+"South Asia",2010,"trn_pass_other",156839.294044195
+"South Asia",2010,"trn_pass_road_LDV_4W_other",37389.6301229101
+"South Asia",2010,"trn_pass_road_LDV_4W_urban",37389.6301229101
+"South Asia",2010,"trn_pass_road_LDV_urban",146445.074164303
+"South Asia",2010,"trn_pass_road_other",153696.790899953
+"South Asia",2010,"trn_pass_road_urban",262752.234941345
+"South Asia",2010,"trn_pass_urban",384885.152279916
+"South Asia",2015,"trn_pass_other",189454.267511348
+"South Asia",2015,"trn_pass_road_LDV_4W_other",46484.5949117513
+"South Asia",2015,"trn_pass_road_LDV_4W_urban",46484.5949117513
+"South Asia",2015,"trn_pass_road_LDV_urban",187454.033395857
+"South Asia",2015,"trn_pass_road_other",185864.241147455
+"South Asia",2015,"trn_pass_road_urban",326833.679631561
+"South Asia",2015,"trn_pass_urban",458117.761786701
+"South Asia",2021,"trn_pass_other",223183.522644739
+"South Asia",2021,"trn_pass_road_LDV_4W_other",57263.1187210205
+"South Asia",2021,"trn_pass_road_LDV_4W_urban",57263.1187210205
+"South Asia",2021,"trn_pass_road_LDV_urban",248118.945956727
+"South Asia",2021,"trn_pass_road_other",216496.625690452
+"South Asia",2021,"trn_pass_road_urban",407352.452926158
+"South Asia",2021,"trn_pass_urban",553013.333520427
+"South Korea",1975,"trn_pass_other",27474.6033522547
+"South Korea",1975,"trn_pass_road_LDV_4W_other",8420.10397557874
+"South Korea",1975,"trn_pass_road_LDV_4W_urban",8420.10397557874
+"South Korea",1975,"trn_pass_road_LDV_urban",9327.55126621375
+"South Korea",1975,"trn_pass_road_other",20752.389820092
+"South Korea",1975,"trn_pass_road_urban",21659.837110727
+"South Korea",1975,"trn_pass_urban",37555.301589955
+"South Korea",1990,"trn_pass_other",162157.596390587
+"South Korea",1990,"trn_pass_road_LDV_4W_other",49921.4180249745
+"South Korea",1990,"trn_pass_road_LDV_4W_urban",49921.4180249745
+"South Korea",1990,"trn_pass_road_LDV_urban",55301.4536665481
+"South Korea",1990,"trn_pass_road_other",123037.605529279
+"South Korea",1990,"trn_pass_road_urban",128417.641170853
+"South Korea",1990,"trn_pass_urban",156009.821135996
+"South Korea",2005,"trn_pass_other",384827.851405821
+"South Korea",2005,"trn_pass_road_LDV_4W_other",121300.06108732
+"South Korea",2005,"trn_pass_road_LDV_4W_urban",121300.06108732
+"South Korea",2005,"trn_pass_road_LDV_urban",134368.473176397
+"South Korea",2005,"trn_pass_road_other",309352.616921835
+"South Korea",2005,"trn_pass_road_urban",322421.029010912
+"South Korea",2005,"trn_pass_urban",367862.276240767
+"South Korea",2010,"trn_pass_other",433159.058227234
+"South Korea",2010,"trn_pass_road_LDV_4W_other",131784.782973838
+"South Korea",2010,"trn_pass_road_LDV_4W_urban",131784.782973838
+"South Korea",2010,"trn_pass_road_LDV_urban",145973.7135614
+"South Korea",2010,"trn_pass_road_other",350577.149420773
+"South Korea",2010,"trn_pass_road_urban",364766.080008336
+"South Korea",2010,"trn_pass_urban",408651.774360919
+"South Korea",2015,"trn_pass_other",501497.179352953
+"South Korea",2015,"trn_pass_road_LDV_4W_other",153542.215617544
+"South Korea",2015,"trn_pass_road_LDV_4W_urban",153542.215617544
+"South Korea",2015,"trn_pass_road_LDV_urban",170073.677521426
+"South Korea",2015,"trn_pass_road_other",399351.941583387
+"South Korea",2015,"trn_pass_road_urban",415883.403487269
+"South Korea",2015,"trn_pass_urban",462245.109103761
+"South Korea",2021,"trn_pass_other",516266.046751666
+"South Korea",2021,"trn_pass_road_LDV_4W_other",167387.398288676
+"South Korea",2021,"trn_pass_road_LDV_4W_urban",167387.398288676
+"South Korea",2021,"trn_pass_road_LDV_urban",185412.249015633
+"South Korea",2021,"trn_pass_road_other",417521.117589474
+"South Korea",2021,"trn_pass_road_urban",435545.968316431
+"South Korea",2021,"trn_pass_urban",491494.796839509
+"Southeast Asia",1975,"trn_pass_other",178585.817106214
+"Southeast Asia",1975,"trn_pass_road_LDV_4W_other",45003.0138698019
+"Southeast Asia",1975,"trn_pass_road_LDV_4W_urban",45003.0138698019
+"Southeast Asia",1975,"trn_pass_road_LDV_urban",201052.38181264
+"Southeast Asia",1975,"trn_pass_road_other",161209.781738418
+"Southeast Asia",1975,"trn_pass_road_urban",317259.149681255
+"Southeast Asia",1975,"trn_pass_urban",458421.828859766
+"Southeast Asia",1990,"trn_pass_other",380610.741251773
+"Southeast Asia",1990,"trn_pass_road_LDV_4W_other",101968.766811932
+"Southeast Asia",1990,"trn_pass_road_LDV_4W_urban",101968.766811932
+"Southeast Asia",1990,"trn_pass_road_LDV_urban",458273.407148806
+"Southeast Asia",1990,"trn_pass_road_other",360117.257817834
+"Southeast Asia",1990,"trn_pass_road_urban",716421.898154708
+"Southeast Asia",1990,"trn_pass_urban",917568.032527892
+"Southeast Asia",2005,"trn_pass_other",849858.581121291
+"Southeast Asia",2005,"trn_pass_road_LDV_4W_other",223883.660631629
+"Southeast Asia",2005,"trn_pass_road_LDV_4W_urban",223883.660631629
+"Southeast Asia",2005,"trn_pass_road_LDV_urban",1000521.05239148
+"Southeast Asia",2005,"trn_pass_road_other",795212.089595161
+"Southeast Asia",2005,"trn_pass_road_urban",1571849.48135501
+"Southeast Asia",2005,"trn_pass_urban",1851103.19688915
+"Southeast Asia",2010,"trn_pass_other",1039826.29052732
+"Southeast Asia",2010,"trn_pass_road_LDV_4W_other",256812.861763997
+"Southeast Asia",2010,"trn_pass_road_LDV_4W_urban",256812.861763997
+"Southeast Asia",2010,"trn_pass_road_LDV_urban",1102125.09533314
+"Southeast Asia",2010,"trn_pass_road_other",958955.201616451
+"Southeast Asia",2010,"trn_pass_road_urban",1804267.4351856
+"Southeast Asia",2010,"trn_pass_urban",2117540.73382301
+"Southeast Asia",2015,"trn_pass_other",1285013.75526079
+"Southeast Asia",2015,"trn_pass_road_LDV_4W_other",325330.234361681
+"Southeast Asia",2015,"trn_pass_road_LDV_4W_urban",325330.234361681
+"Southeast Asia",2015,"trn_pass_road_LDV_urban",1406473.82579311
+"Southeast Asia",2015,"trn_pass_road_other",1188138.78536178
+"Southeast Asia",2015,"trn_pass_road_urban",2269282.37679321
+"Southeast Asia",2015,"trn_pass_urban",2604150.36892285
+"Southeast Asia",2021,"trn_pass_other",1237631.85954827
+"Southeast Asia",2021,"trn_pass_road_LDV_4W_other",326480.267107804
+"Southeast Asia",2021,"trn_pass_road_LDV_4W_urban",326480.267107804
+"Southeast Asia",2021,"trn_pass_road_LDV_urban",1495785.61097726
+"Southeast Asia",2021,"trn_pass_road_other",1144383.94705536
+"Southeast Asia",2021,"trn_pass_road_urban",2313689.29092482
+"Southeast Asia",2021,"trn_pass_urban",2674669.13009952
+"Taiwan",1975,"trn_pass_other",25048.6809159929
+"Taiwan",1975,"trn_pass_road_LDV_4W_other",6712.18471472339
+"Taiwan",1975,"trn_pass_road_LDV_4W_urban",6712.18471472339
+"Taiwan",1975,"trn_pass_road_LDV_urban",30873.382365652
+"Taiwan",1975,"trn_pass_road_other",24178.1483605863
+"Taiwan",1975,"trn_pass_road_urban",48339.3460115149
+"Taiwan",1975,"trn_pass_urban",57638.2956225488
+"Taiwan",1990,"trn_pass_other",122462.163678904
+"Taiwan",1990,"trn_pass_road_LDV_4W_other",32845.9423267282
+"Taiwan",1990,"trn_pass_road_LDV_4W_urban",32845.9423267282
+"Taiwan",1990,"trn_pass_road_LDV_urban",151078.699337705
+"Taiwan",1990,"trn_pass_road_other",118314.740816821
+"Taiwan",1990,"trn_pass_road_urban",236547.497827798
+"Taiwan",1990,"trn_pass_urban",251112.493318674
+"Taiwan",2005,"trn_pass_other",232765.798533241
+"Taiwan",2005,"trn_pass_road_LDV_4W_other",61957.142588313
+"Taiwan",2005,"trn_pass_road_LDV_4W_urban",61957.142588313
+"Taiwan",2005,"trn_pass_road_LDV_urban",284979.00955177
+"Taiwan",2005,"trn_pass_road_other",223176.504985653
+"Taiwan",2005,"trn_pass_road_urban",446198.37194911
+"Taiwan",2005,"trn_pass_urban",466107.596151293
+"Taiwan",2010,"trn_pass_other",227523.687341258
+"Taiwan",2010,"trn_pass_road_LDV_4W_other",60253.2090418086
+"Taiwan",2010,"trn_pass_road_LDV_4W_urban",60253.2090418086
+"Taiwan",2010,"trn_pass_road_LDV_urban",281547.4438647
+"Taiwan",2010,"trn_pass_road_other",214376.572668995
+"Taiwan",2010,"trn_pass_road_urban",435670.807491887
+"Taiwan",2010,"trn_pass_urban",459396.81879135
+"Taiwan",2015,"trn_pass_other",239154.117045998
+"Taiwan",2015,"trn_pass_road_LDV_4W_other",63941.5965688407
+"Taiwan",2015,"trn_pass_road_LDV_4W_urban",63941.5965688407
+"Taiwan",2015,"trn_pass_road_LDV_urban",302826.185921561
+"Taiwan",2015,"trn_pass_road_other",223997.92604774
+"Taiwan",2015,"trn_pass_road_urban",462882.51540046
+"Taiwan",2015,"trn_pass_urban",488305.525778797
+"Taiwan",2021,"trn_pass_other",231424.250765684
+"Taiwan",2021,"trn_pass_road_LDV_4W_other",62645.6004414593
+"Taiwan",2021,"trn_pass_road_LDV_4W_urban",62645.6004414593
+"Taiwan",2021,"trn_pass_road_LDV_urban",302471.407438945
+"Taiwan",2021,"trn_pass_road_other",215969.199464379
+"Taiwan",2021,"trn_pass_road_urban",455795.006461865
+"Taiwan",2021,"trn_pass_urban",482261.11238302
+"USA",1975,"trn_pass_other",2811702.92328387
+"USA",1975,"trn_pass_road_LDV_4W_other",2086262.36828878
+"USA",1975,"trn_pass_road_LDV_4W_urban",2086262.36828878
+"USA",1975,"trn_pass_road_LDV_urban",2109880.51533151
+"USA",1975,"trn_pass_road_other",2250245.87349525
+"USA",1975,"trn_pass_road_urban",2273864.02053798
+"USA",1975,"trn_pass_urban",2319429.4010548
+"USA",1990,"trn_pass_other",3462177.49347627
+"USA",1990,"trn_pass_road_LDV_4W_other",2432439.4087412
+"USA",1990,"trn_pass_road_LDV_4W_urban",2432439.4087412
+"USA",1990,"trn_pass_road_LDV_urban",2459976.58480722
+"USA",1990,"trn_pass_road_other",2623632.98408229
+"USA",1990,"trn_pass_road_urban",2651170.1601483
+"USA",1990,"trn_pass_urban",2704181.42578904
+"USA",2005,"trn_pass_other",4469331.20708423
+"USA",2005,"trn_pass_road_LDV_4W_other",3265157.20169765
+"USA",2005,"trn_pass_road_LDV_4W_urban",3265157.20169765
+"USA",2005,"trn_pass_road_LDV_urban",3302121.35131459
+"USA",2005,"trn_pass_road_other",3540056.9213919
+"USA",2005,"trn_pass_road_urban",3577021.07100884
+"USA",2005,"trn_pass_urban",3641983.49324781
+"USA",2010,"trn_pass_other",4356539.41199294
+"USA",2010,"trn_pass_road_LDV_4W_other",3284553.87191029
+"USA",2010,"trn_pass_road_LDV_4W_urban",3284553.87191029
+"USA",2010,"trn_pass_road_LDV_urban",3321738.22110968
+"USA",2010,"trn_pass_road_other",3556852.18349354
+"USA",2010,"trn_pass_road_urban",3594036.53269294
+"USA",2010,"trn_pass_urban",3661819.15584363
+"USA",2015,"trn_pass_other",4976624.04677327
+"USA",2015,"trn_pass_road_LDV_4W_other",3802003.7416581
+"USA",2015,"trn_pass_road_LDV_4W_urban",3802003.7416581
+"USA",2015,"trn_pass_road_LDV_urban",3841172.90615024
+"USA",2015,"trn_pass_road_other",4086579.52863074
+"USA",2015,"trn_pass_road_urban",4125748.69312287
+"USA",2015,"trn_pass_urban",4198483.68431905
+"USA",2021,"trn_pass_other",5190691.64827983
+"USA",2021,"trn_pass_road_LDV_4W_other",4059802.45364115
+"USA",2021,"trn_pass_road_LDV_4W_urban",4059802.45364115
+"USA",2021,"trn_pass_road_LDV_urban",4099863.57718159
+"USA",2021,"trn_pass_road_other",4358650.13137165
+"USA",2021,"trn_pass_road_urban",4398711.25491208
+"USA",2021,"trn_pass_urban",4477748.24006887
+"Ukraine",1975,"trn_pass_other",136671.596511502
+"Ukraine",1975,"trn_pass_road_LDV_4W_other",82669.0672939574
+"Ukraine",1975,"trn_pass_road_LDV_4W_urban",82669.0672939574
+"Ukraine",1975,"trn_pass_road_LDV_urban",100808.941818762
+"Ukraine",1975,"trn_pass_road_other",116900.520159284
+"Ukraine",1975,"trn_pass_road_urban",135040.394684088
+"Ukraine",1975,"trn_pass_urban",206942.471036306
+"Ukraine",1990,"trn_pass_other",219730.493528352
+"Ukraine",1990,"trn_pass_road_LDV_4W_other",124489.260147485
+"Ukraine",1990,"trn_pass_road_LDV_4W_urban",124489.260147485
+"Ukraine",1990,"trn_pass_road_LDV_urban",151890.48076277
+"Ukraine",1990,"trn_pass_road_other",171994.465170837
+"Ukraine",1990,"trn_pass_road_urban",199395.685786122
+"Ukraine",1990,"trn_pass_urban",284247.120052206
+"Ukraine",2005,"trn_pass_other",92958.0436752659
+"Ukraine",2005,"trn_pass_road_LDV_4W_other",51582.9507651516
+"Ukraine",2005,"trn_pass_road_LDV_4W_urban",51582.9507651516
+"Ukraine",2005,"trn_pass_road_LDV_urban",62893.9451116763
+"Ukraine",2005,"trn_pass_road_other",73308.0868746757
+"Ukraine",2005,"trn_pass_road_urban",84619.0812212004
+"Ukraine",2005,"trn_pass_urban",150793.993112616
+"Ukraine",2010,"trn_pass_other",103266.477327251
+"Ukraine",2010,"trn_pass_road_LDV_4W_other",62290.9256431626
+"Ukraine",2010,"trn_pass_road_LDV_4W_urban",62290.9256431626
+"Ukraine",2010,"trn_pass_road_LDV_urban",75978.0587450717
+"Ukraine",2010,"trn_pass_road_other",86285.5176638206
+"Ukraine",2010,"trn_pass_road_urban",99972.6507657297
+"Ukraine",2010,"trn_pass_urban",163207.153666509
+"Ukraine",2015,"trn_pass_other",79196.9665000523
+"Ukraine",2015,"trn_pass_road_LDV_4W_other",48303.8249937843
+"Ukraine",2015,"trn_pass_road_LDV_4W_urban",48303.8249937843
+"Ukraine",2015,"trn_pass_road_LDV_urban",58924.0405473212
+"Ukraine",2015,"trn_pass_road_other",65924.9686033992
+"Ukraine",2015,"trn_pass_road_urban",76545.184156936
+"Ukraine",2015,"trn_pass_urban",136658.289209119
+"Ukraine",2021,"trn_pass_other",90388.2766861007
+"Ukraine",2021,"trn_pass_road_LDV_4W_other",57519.0474786043
+"Ukraine",2021,"trn_pass_road_LDV_4W_urban",57519.0474786043
+"Ukraine",2021,"trn_pass_road_LDV_urban",70170.6738253929
+"Ukraine",2021,"trn_pass_road_other",77322.9300401481
+"Ukraine",2021,"trn_pass_road_urban",89974.5563869367
+"Ukraine",2021,"trn_pass_urban",147698.676561374

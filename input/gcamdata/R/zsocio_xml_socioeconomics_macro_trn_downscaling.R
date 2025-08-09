@@ -41,12 +41,6 @@ module_socioeconomics_macro_xml_trn_downscaling <- function(command, ...) {
       bind_rows(
         L281.BasePriceSectorMapping %>%
           filter(from.sector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-          mutate(from.sector = paste0(from.sector, "_urban"),
-                 to.sector = paste0(to.sector, "_urban"))
-      ) %>%
-      bind_rows(
-        L281.BasePriceSectorMapping %>%
-          filter(from.sector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
           mutate(from.sector = paste0(from.sector, "_other"),
                  to.sector = paste0(to.sector, "_other"))
       )
@@ -55,15 +49,10 @@ module_socioeconomics_macro_xml_trn_downscaling <- function(command, ...) {
       bind_rows(
         L281.GlobalTechAccountOutputUseBasePrice_fd %>%
           filter(sector.name %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
-          mutate(sector.name = paste0(sector.name, "_urban"))
-      ) %>%
-      bind_rows(
-        L281.GlobalTechAccountOutputUseBasePrice_fd %>%
-          filter(sector.name %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
           mutate(sector.name = paste0(sector.name, "_other"))
       ) %>%
-      filter(!(sector.name == "trn_pass_urban" & subsector.name == "Domestic Aviation")) %>%
-      filter(!(sector.name == "trn_pass_urban" & subsector.name == "HSR")) %>%
+      filter(!(sector.name == "trn_pass" & subsector.name == "Domestic Aviation")) %>%
+      filter(!(sector.name == "trn_pass" & subsector.name == "HSR")) %>%
       filter(!(sector.name == "trn_pass_other" & subsector.name == "Cycle")) %>%
       filter(!(sector.name == "trn_pass_other" & subsector.name == "Walk")) %>%
       filter(!(sector.name == "trn_pass_road_LDV_other" & subsector.name == "2W and 3W"))

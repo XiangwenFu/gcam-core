@@ -150,20 +150,20 @@ module_energy_L254.transportation_UCD <- function(command, ...) {
       A54.globaltranTech_shrwt <- get_data(all_data, "energy/A54.globaltranTech_shrwt_revised",strip_attributes = TRUE)
       A54.globaltranTech_interp <- get_data(all_data, "energy/A54.globaltranTech_interp_revised",strip_attributes = TRUE)
       A54.globaltech_passthru <- get_data(all_data, "energy/A54.globaltech_passthru_revised",strip_attributes = TRUE)
-    }
-    else {A54.tranSubsector_logit <- get_data(all_data, "energy/A54.tranSubsector_logit",strip_attributes = TRUE)
-    A54.tranSubsector_shrwt <- get_data(all_data, "energy/A54.tranSubsector_shrwt",strip_attributes = TRUE)
-    A54.tranSubsector_interp <- get_data(all_data, "energy/A54.tranSubsector_interp",strip_attributes = TRUE)
-    A54.tranSubsector_VOTT <- get_data(all_data, "energy/A54.tranSubsector_VOTT",strip_attributes = TRUE)
+    } else {
+      A54.tranSubsector_logit <- get_data(all_data, "energy/A54.tranSubsector_logit",strip_attributes = TRUE)
+      A54.tranSubsector_shrwt <- get_data(all_data, "energy/A54.tranSubsector_shrwt",strip_attributes = TRUE)
+      A54.tranSubsector_interp <- get_data(all_data, "energy/A54.tranSubsector_interp",strip_attributes = TRUE)
+      A54.tranSubsector_VOTT <- get_data(all_data, "energy/A54.tranSubsector_VOTT",strip_attributes = TRUE)
 
-    A54.tranSubsector_VOTT <- get_data(all_data, "energy/A54.tranSubsector_VOTT",strip_attributes = TRUE)
-    A54.tranSubsector_VOTT_SSP1 <- get_data(all_data, "energy/A54.tranSubsector_VOTT_ssp1",strip_attributes = TRUE) %>% mutate(sce=paste0("SSP1"))
-    A54.tranSubsector_VOTT<- bind_rows(A54.tranSubsector_VOTT,A54.tranSubsector_VOTT_SSP1)
+      A54.tranSubsector_VOTT <- get_data(all_data, "energy/A54.tranSubsector_VOTT",strip_attributes = TRUE)
+      A54.tranSubsector_VOTT_SSP1 <- get_data(all_data, "energy/A54.tranSubsector_VOTT_ssp1",strip_attributes = TRUE) %>% mutate(sce=paste0("SSP1"))
+      A54.tranSubsector_VOTT<- bind_rows(A54.tranSubsector_VOTT,A54.tranSubsector_VOTT_SSP1)
 
-    A54.globaltranTech_retire <- get_data(all_data, "energy/A54.globaltranTech_retire",strip_attributes = TRUE)
-    A54.globaltranTech_shrwt <- get_data(all_data, "energy/A54.globaltranTech_shrwt",strip_attributes = TRUE)
-    A54.globaltranTech_interp <- get_data(all_data, "energy/A54.globaltranTech_interp",strip_attributes = TRUE)
-    A54.globaltech_passthru <- get_data(all_data, "energy/A54.globaltech_passthru",strip_attributes = TRUE)
+      A54.globaltranTech_retire <- get_data(all_data, "energy/A54.globaltranTech_retire",strip_attributes = TRUE)
+      A54.globaltranTech_shrwt <- get_data(all_data, "energy/A54.globaltranTech_shrwt",strip_attributes = TRUE)
+      A54.globaltranTech_interp <- get_data(all_data, "energy/A54.globaltranTech_interp",strip_attributes = TRUE)
+      A54.globaltech_passthru <- get_data(all_data, "energy/A54.globaltech_passthru",strip_attributes = TRUE)
     }
 
 
@@ -742,8 +742,56 @@ module_energy_L254.transportation_UCD <- function(command, ...) {
       #kbn 2020-06-02 Base service values only needed for CORE.
       L254.BaseService_trn # OUTPUT
 
-
-
+    # # Split the base-year service output into urban and other domestic passenger transport
+    # L254.StubTranTechOutput %>%
+    #   select(LEVEL2_DATA_NAMES[["StubTranTech"]], year, output,sce) %>%
+    #   bind_rows(
+    #     select(L254.StubTechProd_nonmotor, one_of(LEVEL2_DATA_NAMES[["StubTranTech"]]), year, calOutputValue,sce)) %>%
+    #   mutate(base.service = if_else(!is.na(output), output, calOutputValue)) %>%
+    #   # Match in energy.final.demand from transportation supplysector information
+    #   # NAs will be introduced, so use left-join
+    #   left_join(A54.sector, by = "supplysector") %>%
+    #   # Aggregate base-year service output to region, energy.final.demand, and year
+    #   group_by(region, supplysector, tranSubsector, year,sce) %>%
+    #   summarise(base.service = sum(base.service)) %>%
+    #   ungroup() %>%
+    #   filter(sce=="CORE") %>%
+    #   filter(supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
+    #   mutate(base.service = base.service/2) ->
+    #   BaseService_trn_split
+    #
+    # BaseService_trn_split <- BaseService_trn_split %>%
+    #   mutate(supplysector = paste0(supplysector, "_urban")) %>%
+    #   bind_rows(
+    #     BaseService_trn_split %>%
+    #       mutate(supplysector = paste0(supplysector, "_other"))
+    #   ) %>%
+    #   filter(!(supplysector == "trn_pass_other" & tranSubsector == "Walk")) %>%
+    #   filter(!(supplysector == "trn_pass_other" & tranSubsector == "Cycle")) %>%
+    #   filter(!(supplysector == "trn_pass_urban" & tranSubsector == "Domestic Aviation")) %>%
+    #   filter(!(supplysector == "trn_pass_urban" & tranSubsector == "HSR")) %>%
+    #   filter(!(supplysector == "trn_pass_road_LDV_other" & tranSubsector == "2W and 3W")) %>%
+    #   mutate(base.service = ifelse(supplysector == "trn_pass_urban" & tranSubsector == "Walk", base.service*2, base.service)) %>%
+    #   mutate(base.service = ifelse(supplysector == "trn_pass_urban" & tranSubsector == "Cycle", base.service*2, base.service)) %>%
+    #   mutate(base.service = ifelse(supplysector == "trn_pass_other" & tranSubsector == "Domestic Aviation", base.service*2, base.service)) %>%
+    #   mutate(base.service = ifelse(supplysector == "trn_pass_other" & tranSubsector == "HSR", base.service*2, base.service)) %>%
+    #   mutate(base.service = ifelse(supplysector == "trn_pass_road_LDV_urban" & tranSubsector == "2W and 3W", base.service*2, base.service))
+    #
+    # write.csv(BaseService_trn_split, "trn_base_service_split.csv", row.names = FALSE)
+    #
+    # BaseService_trn_split <- BaseService_trn_split %>%
+    #   group_by(region, supplysector, year) %>%
+    #   summarise(base.service = sum(base.service)) %>%
+    #   ungroup() %>%
+    #   pivot_wider(names_from = supplysector, values_from = base.service) %>%
+    #   mutate(trn_pass_road_LDV_urban = trn_pass_road_LDV_urban + trn_pass_road_LDV_4W_urban,
+    #          trn_pass_road_urban = trn_pass_road_urban + trn_pass_road_LDV_urban,
+    #          trn_pass_road_other = trn_pass_road_other + trn_pass_road_LDV_4W_other,
+    #          trn_pass_urban = trn_pass_urban + trn_pass_road_urban,
+    #          trn_pass_other = trn_pass_other + trn_pass_road_other) %>%
+    #   pivot_longer(cols=-c(region, year), names_to = "supplysector", values_to = "base.service")
+    #
+    # write.csv(BaseService_trn_split, "trn_base_service_split_aggr.csv", row.names = FALSE)
 
 
     # ===================================================
