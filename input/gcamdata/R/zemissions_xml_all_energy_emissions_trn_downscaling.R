@@ -72,52 +72,56 @@ module_emissions_all_energy_emissions_trn_downscaling_xml <- function(command, .
       mutate(input.emissions = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W"), input.emissions/2, input.emissions))
 
     L201.en_pol_emissions <- L201.en_pol_emissions %>%
+      mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W"), paste0(supplysector, "_urban"), supplysector)) %>%
       bind_rows(
         L201.en_pol_emissions %>%
           filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
           mutate(supplysector = paste0(supplysector, "_other"))
       ) %>%
-      filter(!(supplysector == "trn_pass" & subsector == "Domestic Aviation")) %>%
-      filter(!(supplysector == "trn_pass" & subsector == "HSR")) %>%
+      filter(!(supplysector == "trn_pass_urban" & subsector == "Domestic Aviation")) %>%
+      filter(!(supplysector == "trn_pass_urban" & subsector == "HSR")) %>%
       filter(!(supplysector == "trn_pass_road_LDV_other" & subsector == "2W and 3W")) %>%
       mutate(input.emissions = ifelse(region == "USA" & supplysector == "trn_pass_other" & subsector == "Domestic Aviation", input.emissions*2, input.emissions)) %>%
       mutate(input.emissions = ifelse(region == "USA" & supplysector == "trn_pass_other" & subsector == "HSR", input.emissions*2, input.emissions)) %>%
-      mutate(input.emissions = ifelse(region == "USA" & supplysector == "trn_pass_road_LDV" & subsector == "2W and 3W", input.emissions*2, input.emissions))
+      mutate(input.emissions = ifelse(region == "USA" & supplysector == "trn_pass_road_LDV_urban" & subsector == "2W and 3W", input.emissions*2, input.emissions))
 
     L201.en_ghg_emissions <- L201.en_ghg_emissions %>%
       mutate(input.emissions = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W"), input.emissions/2, input.emissions))
 
     L201.en_ghg_emissions <- L201.en_ghg_emissions %>%
+      mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W"), paste0(supplysector, "_urban"), supplysector)) %>%
       bind_rows(
         L201.en_ghg_emissions %>%
           filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
           mutate(supplysector = paste0(supplysector, "_other"))
       ) %>%
-      filter(!(supplysector == "trn_pass" & subsector == "Domestic Aviation")) %>%
-      filter(!(supplysector == "trn_pass" & subsector == "HSR")) %>%
+      filter(!(supplysector == "trn_pass_urban" & subsector == "Domestic Aviation")) %>%
+      filter(!(supplysector == "trn_pass_urban" & subsector == "HSR")) %>%
       filter(!(supplysector == "trn_pass_road_LDV_other" & subsector == "2W and 3W")) %>%
       mutate(input.emissions = ifelse(region == "USA" & supplysector == "trn_pass_other" & subsector == "Domestic Aviation", input.emissions*2, input.emissions)) %>%
       mutate(input.emissions = ifelse(region == "USA" & supplysector == "trn_pass_other" & subsector == "HSR", input.emissions*2, input.emissions)) %>%
-      mutate(input.emissions = ifelse(region == "USA" & supplysector == "trn_pass_road_LDV" & subsector == "2W and 3W", input.emissions*2, input.emissions))
+      mutate(input.emissions = ifelse(region == "USA" & supplysector == "trn_pass_road_LDV_urban" & subsector == "2W and 3W", input.emissions*2, input.emissions))
 
     L201.nonghg_max_reduction <- L201.nonghg_max_reduction %>%
+      mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W"), paste0(supplysector, "_urban"), supplysector)) %>%
       bind_rows(
         L201.nonghg_max_reduction %>%
           filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
           mutate(supplysector = paste0(supplysector, "_other"))
       ) %>%
-      filter(!(supplysector == "trn_pass" & subsector == "Domestic Aviation")) %>%
-      filter(!(supplysector == "trn_pass" & subsector == "HSR")) %>%
+      filter(!(supplysector == "trn_pass_urban" & subsector == "Domestic Aviation")) %>%
+      filter(!(supplysector == "trn_pass_urban" & subsector == "HSR")) %>%
       filter(!(supplysector == "trn_pass_road_LDV_other" & subsector == "2W and 3W"))
 
     L201.nonghg_steepness <- L201.nonghg_steepness %>%
+      mutate(supplysector = ifelse(region == "USA" & supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W"), paste0(supplysector, "_urban"), supplysector)) %>%
       bind_rows(
         L201.nonghg_steepness %>%
           filter(region == "USA", supplysector %in% c("trn_pass", "trn_pass_road", "trn_pass_road_LDV", "trn_pass_road_LDV_4W")) %>%
           mutate(supplysector = paste0(supplysector, "_other"))
       ) %>%
-      filter(!(supplysector == "trn_pass" & subsector == "Domestic Aviation")) %>%
-      filter(!(supplysector == "trn_pass" & subsector == "HSR")) %>%
+      filter(!(supplysector == "trn_pass_urban" & subsector == "Domestic Aviation")) %>%
+      filter(!(supplysector == "trn_pass_urban" & subsector == "HSR")) %>%
       filter(!(supplysector == "trn_pass_road_LDV_other" & subsector == "2W and 3W"))
 
 
