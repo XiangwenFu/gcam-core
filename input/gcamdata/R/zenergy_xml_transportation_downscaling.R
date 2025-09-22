@@ -222,6 +222,7 @@ module_energy_transportation_downscaling_xml <- function(command, ...) {
         mutate(speed = ifelse(region == "USA" & supplysector == "trn_pass_road_urban" & tranSubsector == "Bus", 27, speed)) %>%
         mutate(speed = ifelse(region == "USA" & supplysector == "trn_pass_road_LDV_urban" & tranSubsector == "2W and 3W", 40, speed)) %>%
         mutate(speed = ifelse(region == "USA" & supplysector == "trn_pass_road_LDV_4W_urban" & tranSubsector %in% c("Car", "Large Car and Truck"), 40, speed)) %>%
+        mutate(speed = ifelse(region == "USA" & supplysector == "trn_pass_other" & tranSubsector == "Passenger Rail", 62, speed)) %>%
         mutate(speed = ifelse(region == "USA" & supplysector == "trn_pass_road_other" & tranSubsector == "Bus", 47, speed)) %>%
         mutate(speed = ifelse(region == "USA" & supplysector == "trn_pass_road_LDV_other" & tranSubsector == "2W and 3W", 60, speed)) %>%
         mutate(speed = ifelse(region == "USA" & supplysector == "trn_pass_road_LDV_4W_other" & tranSubsector %in% c("Car", "Large Car and Truck"), 60, speed))
